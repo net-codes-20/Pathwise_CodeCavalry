@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ParseProfileResponse",
+  "description": "Response shape for ai/prompts/parse_profile.py — mirrors contracts/learner_profile.schema.json plus onboarding-specific fields.",
+  "type": "object",
+  "properties": {
+    "profile": {
+      "type": "object",
+      "properties": {
+        "goal": { "type": "string" },
+        "goal_type": {
+          "type": "string",
+          "enum": ["internship", "job", "new_skill", "project", "interview_prep", "academic", "career_transition", "certification"]
+        },
+        "experience_level": { "type": "string", "enum": ["beginner", "intermediate", "advanced"] },
+        "current_skills": { "type": "array", "items": { "type": "string" } },
+        "interests": { "type": "array", "items": { "type": "string" } },
+        "timeline_months": { "type": ["number", "null"] },
+        "weekly_time_hours": { "type": ["number", "null"] },
+        "constraints": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["goal", "goal_type", "experience_level", "current_skills", "interests", "constraints"]
+    },
+    "missing_fields": { "type": "array", "items": { "type": "string" } },
+    "follow_up_question": { "type": ["string", "null"] }
+  },
+  "required": ["profile", "missing_fields", "follow_up_question"]
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "learner_profile.schema.json",
+  "title": "LearnerProfile",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "name": { "type": "string" },
+    "goal": { "type": "string" },
+    "goal_type": {
+      "type": "string",
+      "enum": ["internship", "job", "new_skill", "project", "interview_prep", "academic", "career_transition", "certification"]
+    },
+    "experience_level": { "type": "string", "enum": ["beginner", "intermediate", "advanced"] },
+    "current_skills": { "type": "array", "items": { "type": "string" } },
+    "interests": { "type": "array", "items": { "type": "string" } },
+    "timeline_months": { "type": "number" },
+    "weekly_time_hours": { "type": "number" },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "learning_style": {
+      "type": "object",
+      "properties": {
+        "dominant_style": { "type": "string", "enum": ["visual", "auditory", "read_write", "kinesthetic", "multimodal"] },
+        "scores": {
+          "type": "object",
+          "properties": {
+            "visual": { "type": "integer" },
+            "auditory": { "type": "integer" },
+            "read_write": { "type": "integer" },
+            "kinesthetic": { "type": "integer" }
+          },
+          "required": ["visual", "auditory", "read_write", "kinesthetic"]
+        }
+      },
+      "required": ["dominant_style", "scores"]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "required": ["goal", "goal_type", "experience_level", "current_skills", "interests", "constraints"]
+}
