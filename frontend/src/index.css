@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Base Dark Mode Overrides */
+html.dark body {
+  background-color: #0b0f19 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark .bg-white {
+  background-color: #151d2f !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark .bg-slate-50,
+html.dark [class*="bg-slate-50"] {
+  background-color: #111827 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark .bg-slate-100,
+html.dark [class*="bg-slate-100"] {
+  background-color: #1e293b !important;
+  color: #cbd5e1 !important;
+}
+
+html.dark .bg-slate-200 {
+  background-color: #334155 !important;
+  color: #e2e8f0 !important;
+}
+
+html.dark .bg-paper {
+  background-color: #0b0f19 !important;
+}
+
+/* Border Overrides in Dark Mode */
+html.dark .border-slate-200,
+html.dark .border-slate-100,
+html.dark .border-slate-300,
+html.dark [class*="border-slate-100"],
+html.dark [class*="border-slate-200"] {
+  border-color: #243048 !important;
+}
+
+/* Typography in Dark Mode */
+html.dark .text-slate-800,
+html.dark .text-slate-900,
+html.dark .text-ink {
+  color: #f8fafc !important;
+}
+
+html.dark .text-slate-700,
+html.dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+html.dark .text-route-dark {
+  color: #5eead4 !important;
+}
+
+/* Badge & Alert Accents in Dark Mode */
+html.dark .bg-emerald-50,
+html.dark .bg-emerald-100,
+html.dark [class*="bg-emerald-50"] {
+  background-color: #064e3b !important;
+  color: #a7f3d0 !important;
+  border-color: #047857 !important;
+}
+
+html.dark .text-emerald-800,
+html.dark .text-emerald-700 {
+  color: #6ee7b7 !important;
+}
+
+html.dark .bg-amber-50,
+html.dark .bg-amber-100,
+html.dark [class*="bg-amber-50"] {
+  background-color: #451a03 !important;
+  color: #fde68a !important;
+  border-color: #78350f !important;
+}
+
+html.dark .text-amber-800,
+html.dark .text-amber-900,
+html.dark .text-amber-700 {
+  color: #fcd34d !important;
+}
+
+html.dark .bg-route-light,
+html.dark [class*="bg-route-light"] {
+  background-color: #134e4a !important;
+  color: #5eead4 !important;
+  border-color: #0f766e !important;
+}
+
+html.dark .text-route {
+  color: #2dd4bf !important;
+}
+
+/* Inputs & Interactive Controls */
+html.dark input,
+html.dark select,
+html.dark textarea {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b !important;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid theme("colors.route.DEFAULT");
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
