@@ -1,0 +1,23 @@
+# requirements.txt (repo root)
+#
+# ONE Python environment for the whole project — backend/, ai/, and
+# recommender/ all share this. Set up once:
+#
+#   python3 -m venv venv && source venv/bin/activate
+#   pip install -r requirements.txt
+#
+# No per-folder requirements.txt files exist — this is the only one.
+
+# --- backend/ (FastAPI + Supabase) ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+supabase==2.7.4
+httpx==0.27.2
+
+# --- ai/ + backend/ (LLM provider calls, .env loading) ---
+python-dotenv==1.0.1
+requests==2.32.3
+
+# --- recommender/ + backend/ + ai/eval (testing) ---
+pytest==8.3.3
