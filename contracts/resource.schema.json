@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "resource.schema.json",
+  "title": "Resource",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "domain": { "type": "string", "enum": ["data_science", "web_development", "ai_ml"] },
+    "level": { "type": "string", "enum": ["beginner", "intermediate", "advanced"] },
+    "type": { "type": "string", "enum": ["course", "article", "video", "project", "assessment", "book"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "prerequisites": { "type": "array", "items": { "type": "string" } },
+    "duration_hours": { "type": "number" },
+    "url": { "type": "string" },
+    "description": { "type": "string" }
+  },
+  "required": ["id", "title", "domain", "level", "type", "tags", "prerequisites", "duration_hours", "url", "description"]
+}
