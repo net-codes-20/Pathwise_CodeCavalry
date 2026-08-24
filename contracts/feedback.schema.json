@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "feedback.schema.json",
+  "title": "Feedback",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "roadmap_item_id": { "type": "string", "format": "uuid" },
+    "action": { "type": "string", "enum": ["complete", "skip"] },
+    "note": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" }
+  },
+  "required": ["roadmap_item_id", "action"]
+}
