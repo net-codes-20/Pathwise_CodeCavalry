@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "roadmap.schema.json",
+  "title": "Roadmap",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "learner_profile_id": { "type": "string", "format": "uuid" },
+    "items": { "type": "array", "items": { "$ref": "roadmap_item.schema.json" } },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "version": { "type": "integer" }
+  },
+  "required": ["learner_profile_id", "items", "version"]
+}
