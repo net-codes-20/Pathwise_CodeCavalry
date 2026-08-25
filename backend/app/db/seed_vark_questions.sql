@@ -1,0 +1,35 @@
+  -- ============================================================================
+  -- Seed Data: Official 20-Question VARK Learning Style Questionnaire (Supabase)
+  -- Total Questions: 20
+  -- Run this in Supabase SQL Editor to populate the 'vark_questions' table
+  -- ============================================================================
+
+  INSERT INTO vark_questions (id, question_number, question_text, option_v, option_a, option_r, option_k)
+  VALUES
+    ('q1', 1, 'You need to give directions to a friend who wants to visit your house. You would:', 'Draw a map or give them a visual map layout', 'Tell them the directions over a phone call', 'Write down step-by-step street instructions', 'Drive or walk with them to show them the route'),
+    ('q2', 2, 'You want to learn how to assemble a piece of flat-pack furniture. You would:', 'Study the assembly diagrams and schematics', 'Ask a friend or family member to explain the process', 'Read through the step-by-step written text manual', 'Jump straight into fitting the parts together by trial and error'),
+    ('q3', 3, 'You are planning a vacation for a group of friends. To get feedback on the plan, you would:', 'Show them a visual map and photos of the itinerary', 'Call them or host a meeting to talk it through', 'Send a detailed written email or document summary', 'Plan a mini walkthrough or focus on the physical activities scheduled'),
+    ('q4', 4, 'You are learning a new software program or digital tool on your computer. You prefer to:', 'Follow flowcharts or UI visual walkthroughs', 'Ask a tech expert or listen to a step-by-step podcast tutorial', 'Read the user documentation or official text manual', 'Dive in immediately and figure it out by clicking around'),
+    ('q5', 5, 'You are shopping for a new house or apartment. Before visiting, you prefer:', 'A floor plan drawing and map of the neighborhood', 'A discussion with the real estate agent or owner', 'A detailed printed list of features and specifications', 'A video walkthrough showing movement through the space'),
+    ('q6', 6, 'You have a medical condition (like knee pain) and want to understand it. You''d prefer the doctor:', 'Shows you an anatomical diagram or chart of the joint', 'Verbally explains what is happening in detail', 'Gives you a medical brochure or pamphlet to read', 'Uses a 3D physical model to demonstrate the issue'),
+    ('q7', 7, 'You want to learn how to play a new board game or card game. You would:', 'Look at diagrams of game setup and board layouts', 'Have someone explain the rules aloud and answer questions', 'Read the instruction booklet from start to finish', 'Start playing a practice round immediately to learn by doing'),
+    ('q8', 8, 'When choosing a field of study or career path, you prioritize:', 'Working with designs, layouts, maps, or charts', 'Communicating and exchanging ideas through discussions', 'Working with text, reports, and written information', 'Applying practical skills in real-world, hands-on scenarios'),
+    ('q9', 9, 'You want to improve your photography skills. You would:', 'Examine diagrams showing camera mechanics and settings', 'Talk with an experienced photographer and ask questions', 'Read the camera instructions and written guidebooks', 'Take photos, adjust settings, and evaluate real test shots'),
+    ('q10', 10, 'A educational website features a tutorial with multiple components. You learn best from:', 'Infographics, diagrams, and graphic charts', 'Audio narration and spoken explanations', 'Written articles and transcript lists', 'Interactive demonstrations or step-by-step videos'),
+    ('q11', 11, 'You need to prepare a group presentation on a historical event. You would prefer to:', 'Design slides heavy on charts, timelines, and visual images', 'Lead the verbal delivery and group speech portions', 'Write the research paper, script, and hand-out notes', 'Create physical props, models, or perform a reenactment'),
+    ('q12', 12, 'When receiving feedback on a test or work project, you prefer:', 'Visual graphs tracking performance improvements', 'A face-to-face conversation talking through the results', 'A detailed written report or written feedback comments', 'Reviewing concrete examples of what you executed'),
+    ('q13', 13, 'You are shopping for financial options or bank products. You decide by:', 'Comparing visual graphs showing interest over time', 'Discussing choices with a financial consultant', 'Reading printed brochures and terms in detail', 'Using an interactive calculator to input custom numbers'),
+    ('q14', 14, 'You are selecting a instructor, teacher, or conference speaker. You prefer someone who uses:', 'Diagrams, flowcharts, and slide visuals', 'Group discussions, Q&As, and conversational lectures', 'Comprehensive handouts, books, and assigned readings', 'Hands-on experiments, practical models, and demonstrations'),
+    ('q15', 15, 'You are trying to learn a new workout routine or physical exercise. You prefer to:', 'Study posture diagrams and alignment illustrations', 'Listen to a trainer explain the movement cues', 'Read a bulleted list of physical steps to follow', 'Perform the movement slowly while watching a video demonstration'),
+    ('q16', 16, 'When browsing the internet to understand a new subject, you gravitate toward:', 'Visually compelling layouts, infographics, and mind maps', 'Podcasts, radio interviews, and audio clips', 'In-depth written articles, e-books, and blogs', 'Hands-on simulation tools and practical video tutorials'),
+    ('q17', 17, 'You need to remember a set of technical terms or vocabulary. You choose to:', 'Use color-coded mind maps or flashcards with visual icons', 'Repeat the terms aloud or discuss them with a study buddy', 'Write definitions out repeatedly in a study journal', 'Associate terms with physical movements or real-world objects'),
+    ('q18', 18, 'You are tasked with researching the history of your local city. You would:', 'Gather and compare old maps, photos, and historical blueprints', 'Record oral history interviews from longtime residents', 'Read old newspaper articles and archived town documents', 'Visit local historical sites and examine artifacts directly'),
+    ('q19', 19, 'You are trouble-shooting a malfunctioning household appliance. You would:', 'Look at a visual diagram of the machine’s internal wiring', 'Call customer support to talk through the issue with a technician', 'Read the troubleshooting section of the printed user guide', 'Open the machine up and test the components directly'),
+    ('q20', 20, 'When reflecting on your overall learning style, you feel most engaged when:', 'Content is represented in spatial, structured, or visual form', 'Concepts are debated and talked through aloud', 'Concepts are defined clearly using precise text and words', 'Knowledge is applied through real-life context and practice')
+  ON CONFLICT (id) DO UPDATE SET
+    question_number = EXCLUDED.question_number,
+    question_text = EXCLUDED.question_text,
+    option_v = EXCLUDED.option_v,
+    option_a = EXCLUDED.option_a,
+    option_r = EXCLUDED.option_r,
+    option_k = EXCLUDED.option_k;

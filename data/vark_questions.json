@@ -1,0 +1,182 @@
+[
+  {
+    "id": "q1",
+    "question_number": 1,
+    "question_text": "You need to give directions to a friend who wants to visit your house. You would:",
+    "option_v": "Draw a map or give them a visual map layout",
+    "option_a": "Tell them the directions over a phone call",
+    "option_r": "Write down step-by-step street instructions",
+    "option_k": "Drive or walk with them to show them the route"
+  },
+  {
+    "id": "q2",
+    "question_number": 2,
+    "question_text": "You want to learn how to assemble a piece of flat-pack furniture. You would:",
+    "option_v": "Study the assembly diagrams and schematics",
+    "option_a": "Ask a friend or family member to explain the process",
+    "option_r": "Read through the step-by-step written text manual",
+    "option_k": "Jump straight into fitting the parts together by trial and error"
+  },
+  {
+    "id": "q3",
+    "question_number": 3,
+    "question_text": "You are planning a vacation for a group of friends. To get feedback on the plan, you would:",
+    "option_v": "Show them a visual map and photos of the itinerary",
+    "option_a": "Call them or host a meeting to talk it through",
+    "option_r": "Send a detailed written email or document summary",
+    "option_k": "Plan a mini walkthrough or focus on the physical activities scheduled"
+  },
+  {
+    "id": "q4",
+    "question_number": 4,
+    "question_text": "You are learning a new software program or digital tool on your computer. You prefer to:",
+    "option_v": "Follow flowcharts or UI visual walkthroughs",
+    "option_a": "Ask a tech expert or listen to a step-by-step podcast tutorial",
+    "option_r": "Read the user documentation or official text manual",
+    "option_k": "Dive in immediately and figure it out by clicking around"
+  },
+  {
+    "id": "q5",
+    "question_number": 5,
+    "question_text": "You are shopping for a new house or apartment. Before visiting, you prefer:",
+    "option_v": "A floor plan drawing and map of the neighborhood",
+    "option_a": "A discussion with the real estate agent or owner",
+    "option_r": "A detailed printed list of features and specifications",
+    "option_k": "A video walkthrough showing movement through the space"
+  },
+  {
+    "id": "q6",
+    "question_number": 6,
+    "question_text": "You have a medical condition (like knee pain) and want to understand it. You'd prefer the doctor:",
+    "option_v": "Shows you an anatomical diagram or chart of the joint",
+    "option_a": "Verbally explains what is happening in detail",
+    "option_r": "Gives you a medical brochure or pamphlet to read",
+    "option_k": "Uses a 3D physical model to demonstrate the issue"
+  },
+  {
+    "id": "q7",
+    "question_number": 7,
+    "question_text": "You want to learn how to play a new board game or card game. You would:",
+    "option_v": "Look at diagrams of game setup and board layouts",
+    "option_a": "Have someone explain the rules aloud and answer questions",
+    "option_r": "Read the instruction booklet from start to finish",
+    "option_k": "Start playing a practice round immediately to learn by doing"
+  },
+  {
+    "id": "q8",
+    "question_number": 8,
+    "question_text": "When choosing a field of study or career path, you prioritize:",
+    "option_v": "Working with designs, layouts, maps, or charts",
+    "option_a": "Communicating and exchanging ideas through discussions",
+    "option_r": "Working with text, reports, and written information",
+    "option_k": "Applying practical skills in real-world, hands-on scenarios"
+  },
+  {
+    "id": "q9",
+    "question_number": 9,
+    "question_text": "You want to improve your photography skills. You would:",
+    "option_v": "Examine diagrams showing camera mechanics and settings",
+    "option_a": "Talk with an experienced photographer and ask questions",
+    "option_r": "Read the camera instructions and written guidebooks",
+    "option_k": "Take photos, adjust settings, and evaluate real test shots"
+  },
+  {
+    "id": "q10",
+    "question_number": 10,
+    "question_text": "A educational website features a tutorial with multiple components. You learn best from:",
+    "option_v": "Infographics, diagrams, and graphic charts",
+    "option_a": "Audio narration and spoken explanations",
+    "option_r": "Written articles and transcript lists",
+    "option_k": "Interactive demonstrations or step-by-step videos"
+  },
+  {
+    "id": "q11",
+    "question_number": 11,
+    "question_text": "You need to prepare a group presentation on a historical event. You would prefer to:",
+    "option_v": "Design slides heavy on charts, timelines, and visual images",
+    "option_a": "Lead the verbal delivery and group speech portions",
+    "option_r": "Write the research paper, script, and hand-out notes",
+    "option_k": "Create physical props, models, or perform a reenactment"
+  },
+  {
+    "id": "q12",
+    "question_number": 12,
+    "question_text": "When receiving feedback on a test or work project, you prefer:",
+    "option_v": "Visual graphs tracking performance improvements",
+    "option_a": "A face-to-face conversation talking through the results",
+    "option_r": "A detailed written report or written feedback comments",
+    "option_k": "Reviewing concrete examples of what you executed"
+  },
+  {
+    "id": "q13",
+    "question_number": 13,
+    "question_text": "You are shopping for financial options or bank products. You decide by:",
+    "option_v": "Comparing visual graphs showing interest over time",
+    "option_a": "Discussing choices with a financial consultant",
+    "option_r": "Reading printed brochures and terms in detail",
+    "option_k": "Using an interactive calculator to input custom numbers"
+  },
+  {
+    "id": "q14",
+    "question_number": 14,
+    "question_text": "You are selecting a instructor, teacher, or conference speaker. You prefer someone who uses:",
+    "option_v": "Diagrams, flowcharts, and slide visuals",
+    "option_a": "Group discussions, Q&As, and conversational lectures",
+    "option_r": "Comprehensive handouts, books, and assigned readings",
+    "option_k": "Hands-on experiments, practical models, and demonstrations"
+  },
+  {
+    "id": "q15",
+    "question_number": 15,
+    "question_text": "You are trying to learn a new workout routine or physical exercise. You prefer to:",
+    "option_v": "Study posture diagrams and alignment illustrations",
+    "option_a": "Listen to a trainer explain the movement cues",
+    "option_r": "Read a bulleted list of physical steps to follow",
+    "option_k": "Perform the movement slowly while watching a video demonstration"
+  },
+  {
+    "id": "q16",
+    "question_number": 16,
+    "question_text": "When browsing the internet to understand a new subject, you gravitate toward:",
+    "option_v": "Visually compelling layouts, infographics, and mind maps",
+    "option_a": "Podcasts, radio interviews, and audio clips",
+    "option_r": "In-depth written articles, e-books, and blogs",
+    "option_k": "Hands-on simulation tools and practical video tutorials"
+  },
+  {
+    "id": "q17",
+    "question_number": 17,
+    "question_text": "You need to remember a set of technical terms or vocabulary. You choose to:",
+    "option_v": "Use color-coded mind maps or flashcards with visual icons",
+    "option_a": "Repeat the terms aloud or discuss them with a study buddy",
+    "option_r": "Write definitions out repeatedly in a study journal",
+    "option_k": "Associate terms with physical movements or real-world objects"
+  },
+  {
+    "id": "q18",
+    "question_number": 18,
+    "question_text": "You are tasked with researching the history of your local city. You would:",
+    "option_v": "Gather and compare old maps, photos, and historical blueprints",
+    "option_a": "Record oral history interviews from longtime residents",
+    "option_r": "Read old newspaper articles and archived town documents",
+    "option_k": "Visit local historical sites and examine artifacts directly"
+  },
+  {
+    "id": "q19",
+    "question_number": 19,
+    "question_text": "You are trouble-shooting a malfunctioning household appliance. You would:",
+    "option_v": "Look at a visual diagram of the machine’s internal wiring",
+    "option_a": "Call customer support to talk through the issue with a technician",
+    "option_r": "Read the troubleshooting section of the printed user guide",
+    "option_k": "Open the machine up and test the components directly"
+  },
+  {
+    "id": "q20",
+    "question_number": 20,
+    "question_text": "When reflecting on your overall learning style, you feel most engaged when:",
+    "option_v": "Content is represented in spatial, structured, or visual form",
+    "option_a": "Concepts are debated and talked through aloud",
+    "option_r": "Concepts are defined clearly using precise text and words",
+    "option_k": "Knowledge is applied through real-life context and practice"
+  }
+]
