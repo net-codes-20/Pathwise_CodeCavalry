@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExplainItemResponse",
+  "description": "Response shape for ai/prompts/explain_item.py.",
+  "type": "object",
+  "properties": {
+    "explanation": {
+      "type": "string",
+      "description": "2-4 sentences, must reference specific profile fields (goal, skills, timeline) and the resource content — never generic filler."
+    }
+  },
+  "required": ["explanation"]
+}
