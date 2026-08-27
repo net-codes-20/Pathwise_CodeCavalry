@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p01_beginner_ai_engineer",
+    "raw_text": "I want to become an AI engineer in about 6 months. I know some Python but that's it.",
+    "expected_domain": "ai_ml",
+    "expected_experience_level": "beginner",
+    "notes": "Baseline happy path \u2014 should extract cleanly with no follow-up needed.",
+    "learning_style": {
+      "dominant_style": "visual",
+      "scores": {
+        "visual": 10,
+        "auditory": 4,
+        "read_write": 3,
+        "kinesthetic": 3
+      }
+    }
+  },
+  {
+    "id": "p02_web_dev_career_switch",
+    "raw_text": "I'm a nurse and I want to switch careers into web development. I have zero coding experience. I can study maybe 5 hours a week.",
+    "expected_domain": "web_development",
+    "expected_experience_level": "beginner",
+    "notes": "Career transition with an explicit weekly_time_hours \u2014 should not be flagged as missing.",
+    "learning_style": {
+      "dominant_style": "read_write",
+      "scores": {
+        "visual": 2,
+        "auditory": 2,
+        "read_write": 12,
+        "kinesthetic": 4
+      }
+    }
+  },
+  {
+    "id": "p03_vague_goal",
+    "raw_text": "I want to get better with data.",
+    "expected_domain": "data_science",
+    "expected_experience_level": "beginner",
+    "notes": "Deliberately vague \u2014 must produce a follow_up_question, not a guess dressed up as certainty.",
+    "learning_style": {
+      "dominant_style": "multimodal",
+      "scores": {
+        "visual": 6,
+        "auditory": 6,
+        "read_write": 5,
+        "kinesthetic": 3
+      }
+    }
+  },
+  {
+    "id": "p04_experienced_dev_ml_pivot",
+    "raw_text": "I've been a backend engineer for 5 years (Node, Python, SQL) and want to pivot into machine learning for a new job within a year.",
+    "expected_domain": "ai_ml",
+    "expected_experience_level": "intermediate",
+    "notes": "Should recognize existing skills as current_skills and set experience_level above beginner.",
+    "learning_style": {
+      "dominant_style": "kinesthetic",
+      "scores": {
+        "visual": 3,
+        "auditory": 3,
+        "read_write": 2,
+        "kinesthetic": 12
+      }
+    }
+  },
+  {
+    "id": "p05_student_interview_prep",
+    "raw_text": "I'm a CS student, I already know Python and basic ML from coursework, and I need to prep for AI/ML engineer interviews in 3 months.",
+    "expected_domain": "ai_ml",
+    "expected_experience_level": "intermediate",
+    "notes": "goal_type should resolve to interview_prep.",
+    "learning_style": {
+      "dominant_style": "auditory",
+      "scores": {
+        "visual": 3,
+        "auditory": 11,
+        "read_write": 3,
+        "kinesthetic": 3
+      }
+    }
+  },
+  {
+    "id": "p06_no_timeline_given",
+    "raw_text": "I want to learn full-stack web development to build my own startup's product.",
+    "expected_domain": "web_development",
+    "expected_experience_level": "beginner",
+    "notes": "No timeline_months or weekly_time_hours mentioned \u2014 both should appear in missing_fields.",
+    "learning_style": {
+      "dominant_style": "visual",
+      "scores": {
+        "visual": 9,
+        "auditory": 3,
+        "read_write": 4,
+        "kinesthetic": 4
+      }
+    }
+  },
+  {
+    "id": "p07_certification_goal",
+    "raw_text": "I need a data science certification for work. I already use SQL and Excel daily, 10 hours a week available, want it done in 4 months.",
+    "expected_domain": "data_science",
+    "expected_experience_level": "intermediate",
+    "notes": "goal_type should resolve to certification; all pacing fields present.",
+    "learning_style": {
+      "dominant_style": "read_write",
+      "scores": {
+        "visual": 3,
+        "auditory": 3,
+        "read_write": 10,
+        "kinesthetic": 4
+      }
+    }
+  },
+  {
+    "id": "p08_multi_domain_interest",
+    "raw_text": "I'm interested in both web development and AI \u2014 not sure which, but I want to build AI-powered web apps eventually.",
+    "expected_domain": "ai_ml",
+    "expected_experience_level": "beginner",
+    "notes": "Overlapping interests \u2014 tests whether retrieval/roadmap still produces a coherent single sequence rather than two disjoint tracks.",
+    "learning_style": {
+      "dominant_style": "kinesthetic",
+      "scores": {
+        "visual": 4,
+        "auditory": 3,
+        "read_write": 2,
+        "kinesthetic": 11
+      }
+    }
+  },
+  {
+    "id": "p09_advanced_specific_gap",
+    "raw_text": "I'm an advanced data scientist already, I just need to fill gaps in deep learning and deployment before a senior interview next month.",
+    "expected_domain": "ai_ml",
+    "expected_experience_level": "advanced",
+    "notes": "Tight timeline + advanced level \u2014 tests that the roadmap doesn't include beginner filler.",
+    "learning_style": {
+      "dominant_style": "auditory",
+      "scores": {
+        "visual": 2,
+        "auditory": 12,
+        "read_write": 3,
+        "kinesthetic": 3
+      }
+    }
+  },
+  {
+    "id": "p10_constraints_heavy",
+    "raw_text": "I want to learn data science but I only have weekends free, and I can't afford paid courses. Total beginner.",
+    "expected_domain": "data_science",
+    "expected_experience_level": "beginner",
+    "notes": "Tests that 'weekends only' and 'no paid courses' land in constraints, not dropped.",
+    "learning_style": {
+      "dominant_style": "multimodal",
+      "scores": {
+        "visual": 7,
+        "auditory": 7,
+        "read_write": 4,
+        "kinesthetic": 2
+      }
+    }
+  }
+]
