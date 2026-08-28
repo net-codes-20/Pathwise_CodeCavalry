@@ -1,0 +1,7305 @@
+[
+  {
+    "id": "wd-001",
+    "title": "HTML Fundamentals",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "html",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/learn/responsive-web-design/",
+    "description": "Learn HTML document structure, semantic tags, forms, and accessibility basics by building real pages."
+  },
+  {
+    "id": "wd-002",
+    "title": "CSS Fundamentals",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "css",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "wd-001"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.freecodecamp.org/learn/responsive-web-design/",
+    "description": "Core CSS: selectors, the box model, colors, typography, and layout basics."
+  },
+  {
+    "id": "wd-003",
+    "title": "Flexbox and CSS Grid",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "css",
+      "layout"
+    ],
+    "prerequisites": [
+      "wd-002"
+    ],
+    "duration_hours": 4,
+    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "description": "Master modern CSS layout systems for building responsive, multi-column pages."
+  },
+  {
+    "id": "wd-004",
+    "title": "Responsive Web Design",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "css",
+      "responsive",
+      "mobile"
+    ],
+    "prerequisites": [
+      "wd-003"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.freecodecamp.org/learn/responsive-web-design/",
+    "description": "Media queries, mobile-first design, and fluid layouts that adapt to any screen size."
+  },
+  {
+    "id": "wd-005",
+    "title": "Git and GitHub Basics",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "git",
+      "version-control",
+      "tools"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.freecodecamp.org/news/practical-git-and-github-guide/",
+    "description": "Track changes, branch, commit, and collaborate using Git and GitHub \u2014 essential for every developer."
+  },
+  {
+    "id": "wd-006",
+    "title": "JavaScript Fundamentals",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "javascript",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "wd-001"
+    ],
+    "duration_hours": 10,
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "description": "Variables, functions, loops, arrays, objects, and control flow in JavaScript."
+  },
+  {
+    "id": "wd-007",
+    "title": "DOM Manipulation",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "javascript",
+      "dom"
+    ],
+    "prerequisites": [
+      "wd-006"
+    ],
+    "duration_hours": 4,
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+    "description": "Select, modify, and respond to events on HTML elements using vanilla JavaScript."
+  },
+  {
+    "id": "wd-008",
+    "title": "Browser Developer Tools",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "debugging",
+      "tools"
+    ],
+    "prerequisites": [
+      "wd-006"
+    ],
+    "duration_hours": 2,
+    "url": "https://developer.chrome.com/docs/devtools/",
+    "description": "Debug JavaScript, inspect the DOM, and profile performance using Chrome DevTools."
+  },
+  {
+    "id": "wd-009",
+    "title": "Intro to Web Accessibility",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "accessibility",
+      "a11y"
+    ],
+    "prerequisites": [
+      "wd-001"
+    ],
+    "duration_hours": 3,
+    "url": "https://web.dev/learn/accessibility/",
+    "description": "Build usable interfaces for everyone: semantic HTML, ARIA basics, and keyboard navigation."
+  },
+  {
+    "id": "wd-010",
+    "title": "Full Stack Web Dev Roadmap",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "roadmap",
+      "overview"
+    ],
+    "prerequisites": [],
+    "duration_hours": 1,
+    "url": "https://roadmap.sh/full-stack",
+    "description": "A visual overview of the full-stack developer learning path from basics to advanced."
+  },
+  {
+    "id": "wd-011",
+    "title": "Personal Portfolio Site (Project)",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "project",
+    "tags": [
+      "html",
+      "css",
+      "project"
+    ],
+    "prerequisites": [
+      "wd-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/learn/responsive-web-design/#front-end-development-libraries-projects",
+    "description": "Build and deploy a responsive personal portfolio site using HTML and CSS."
+  },
+  {
+    "id": "wd-012",
+    "title": "Web Dev Foundations Assessment",
+    "domain": "web_development",
+    "level": "beginner",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "prerequisites": [
+      "wd-006"
+    ],
+    "duration_hours": 1,
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "description": "Quiz covering HTML, CSS, and core JavaScript to confirm you're ready for intermediate topics."
+  },
+  {
+    "id": "wd-013",
+    "title": "Modern JavaScript (ES6+)",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "javascript",
+      "es6"
+    ],
+    "prerequisites": [
+      "wd-006"
+    ],
+    "duration_hours": 6,
+    "url": "https://javascript.info/",
+    "description": "Arrow functions, destructuring, modules, classes, and other modern JS features."
+  },
+  {
+    "id": "wd-014",
+    "title": "Asynchronous JavaScript",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "javascript",
+      "async",
+      "promises"
+    ],
+    "prerequisites": [
+      "wd-013"
+    ],
+    "duration_hours": 5,
+    "url": "https://javascript.info/async",
+    "description": "Callbacks, Promises, and async/await for handling asynchronous operations."
+  },
+  {
+    "id": "wd-015",
+    "title": "Working with the Fetch API",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "javascript",
+      "api",
+      "http"
+    ],
+    "prerequisites": [
+      "wd-014"
+    ],
+    "duration_hours": 2,
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+    "description": "Make HTTP requests from the browser and handle JSON responses with fetch()."
+  },
+  {
+    "id": "wd-016",
+    "title": "npm and Build Tools",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "npm",
+      "tooling",
+      "bundlers"
+    ],
+    "prerequisites": [
+      "wd-013"
+    ],
+    "duration_hours": 3,
+    "url": "https://docs.npmjs.com/about-npm",
+    "description": "Package management, scripts, and an introduction to modern JS bundlers like Vite."
+  },
+  {
+    "id": "wd-017",
+    "title": "TypeScript Fundamentals",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "typescript"
+    ],
+    "prerequisites": [
+      "wd-013"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "description": "Add static typing to JavaScript: interfaces, generics, and type inference."
+  },
+  {
+    "id": "wd-018",
+    "title": "React Basics",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react",
+      "frontend"
+    ],
+    "prerequisites": [
+      "wd-015",
+      "wd-016"
+    ],
+    "duration_hours": 8,
+    "url": "https://react.dev/learn",
+    "description": "Components, JSX, props, and rendering \u2014 the foundation of building UIs with React."
+  },
+  {
+    "id": "wd-019",
+    "title": "React Hooks",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react",
+      "hooks"
+    ],
+    "prerequisites": [
+      "wd-018"
+    ],
+    "duration_hours": 5,
+    "url": "https://react.dev/reference/react",
+    "description": "useState, useEffect, and custom hooks for managing state and side effects."
+  },
+  {
+    "id": "wd-020",
+    "title": "State Management with Context API",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react",
+      "state-management"
+    ],
+    "prerequisites": [
+      "wd-019"
+    ],
+    "duration_hours": 4,
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "description": "Share state across components without prop drilling using React Context."
+  },
+  {
+    "id": "wd-021",
+    "title": "Tailwind CSS",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "css",
+      "tailwind",
+      "styling"
+    ],
+    "prerequisites": [
+      "wd-003"
+    ],
+    "duration_hours": 4,
+    "url": "https://tailwindcss.com/docs/installation",
+    "description": "Utility-first CSS framework for building custom designs quickly."
+  },
+  {
+    "id": "wd-022",
+    "title": "Node.js Fundamentals",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "nodejs",
+      "backend"
+    ],
+    "prerequisites": [
+      "wd-013"
+    ],
+    "duration_hours": 6,
+    "url": "https://nodejs.org/en/docs",
+    "description": "Run JavaScript outside the browser: modules, the file system, and the event loop."
+  },
+  {
+    "id": "wd-023",
+    "title": "Express.js and REST APIs",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "nodejs",
+      "express",
+      "rest-api"
+    ],
+    "prerequisites": [
+      "wd-022"
+    ],
+    "duration_hours": 7,
+    "url": "https://expressjs.com/en/starter/installing.html",
+    "description": "Build RESTful APIs with routing, middleware, and request handling using Express."
+  },
+  {
+    "id": "wd-024",
+    "title": "SQL Fundamentals",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://www.w3schools.com/sql/",
+    "description": "Querying relational databases: SELECT, JOIN, WHERE, and aggregate functions."
+  },
+  {
+    "id": "wd-025",
+    "title": "MongoDB Basics",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "mongodb",
+      "nosql",
+      "database"
+    ],
+    "prerequisites": [
+      "wd-022"
+    ],
+    "duration_hours": 4,
+    "url": "https://learn.mongodb.com/pages/mongodb-basics",
+    "description": "Document-based data modeling and CRUD operations with MongoDB."
+  },
+  {
+    "id": "wd-026",
+    "title": "Git Branching Strategies",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "git",
+      "workflow"
+    ],
+    "prerequisites": [
+      "wd-005"
+    ],
+    "duration_hours": 2,
+    "url": "https://learngitbranching.js.org/",
+    "description": "Interactive practice with branching, merging, and rebasing for team workflows."
+  },
+  {
+    "id": "wd-027",
+    "title": "Testing with Jest",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "testing",
+      "jest"
+    ],
+    "prerequisites": [
+      "wd-013"
+    ],
+    "duration_hours": 4,
+    "url": "https://jestjs.io/docs/getting-started",
+    "description": "Write unit tests for JavaScript functions and React components."
+  },
+  {
+    "id": "wd-028",
+    "title": "Web Security Fundamentals (OWASP)",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "security",
+      "owasp"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 3,
+    "url": "https://owasp.org/www-project-top-ten/",
+    "description": "Common web vulnerabilities \u2014 XSS, SQL injection, CSRF \u2014 and how to prevent them."
+  },
+  {
+    "id": "wd-029",
+    "title": "Web Performance Basics",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "performance",
+      "optimization"
+    ],
+    "prerequisites": [
+      "wd-018"
+    ],
+    "duration_hours": 3,
+    "url": "https://web.dev/learn/performance/",
+    "description": "Loading, rendering, and interaction performance fundamentals for the web."
+  },
+  {
+    "id": "wd-030",
+    "title": "Todo App with React (Project)",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "react",
+      "project"
+    ],
+    "prerequisites": [
+      "wd-019"
+    ],
+    "duration_hours": 6,
+    "url": "https://react.dev/learn/tutorial-tic-tac-toe",
+    "description": "Build a full CRUD todo application using React and local state."
+  },
+  {
+    "id": "wd-031",
+    "title": "REST API with Express (Project)",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "nodejs",
+      "express",
+      "project"
+    ],
+    "prerequisites": [
+      "wd-023",
+      "wd-024"
+    ],
+    "duration_hours": 8,
+    "url": "https://expressjs.com/en/starter/hello-world.html",
+    "description": "Design and build a RESTful API backed by a SQL or MongoDB database."
+  },
+  {
+    "id": "wd-032",
+    "title": "Intermediate Web Dev Assessment",
+    "domain": "web_development",
+    "level": "intermediate",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "react",
+      "nodejs"
+    ],
+    "prerequisites": [
+      "wd-019",
+      "wd-023"
+    ],
+    "duration_hours": 1,
+    "url": "https://roadmap.sh/full-stack",
+    "description": "Quiz covering React fundamentals and backend REST API design."
+  },
+  {
+    "id": "wd-033",
+    "title": "Next.js Fundamentals",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "nextjs",
+      "react",
+      "ssr"
+    ],
+    "prerequisites": [
+      "wd-019"
+    ],
+    "duration_hours": 7,
+    "url": "https://nextjs.org/learn",
+    "description": "Server-side rendering, routing, and full-stack features with the Next.js framework."
+  },
+  {
+    "id": "wd-034",
+    "title": "GraphQL Fundamentals",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "graphql",
+      "api"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 5,
+    "url": "https://graphql.org/learn/",
+    "description": "Query language for APIs: schemas, resolvers, queries, and mutations."
+  },
+  {
+    "id": "wd-035",
+    "title": "Docker for Web Developers",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "docker",
+      "devops"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.docker.com/get-started/",
+    "description": "Containerize applications for consistent development and deployment environments."
+  },
+  {
+    "id": "wd-036",
+    "title": "CI/CD Fundamentals",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "ci-cd",
+      "devops",
+      "github-actions"
+    ],
+    "prerequisites": [
+      "wd-035"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.github.com/en/actions/learn-github-actions",
+    "description": "Automate testing and deployment pipelines using GitHub Actions."
+  },
+  {
+    "id": "wd-037",
+    "title": "Authentication and OAuth",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "auth",
+      "oauth",
+      "security"
+    ],
+    "prerequisites": [
+      "wd-028"
+    ],
+    "duration_hours": 5,
+    "url": "https://auth0.com/intro-to-iam/what-is-oauth-2",
+    "description": "Implement secure login flows, sessions, JWTs, and third-party OAuth."
+  },
+  {
+    "id": "wd-038",
+    "title": "WebSockets and Real-Time Apps",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "websockets",
+      "real-time"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 5,
+    "url": "https://socket.io/docs/v4/",
+    "description": "Build real-time features like chat and live updates using WebSockets."
+  },
+  {
+    "id": "wd-039",
+    "title": "Serverless Functions",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "serverless",
+      "cloud"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 3,
+    "url": "https://vercel.com/docs/functions",
+    "description": "Deploy backend logic without managing servers using serverless functions."
+  },
+  {
+    "id": "wd-040",
+    "title": "Advanced React Patterns",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "react",
+      "advanced-patterns"
+    ],
+    "prerequisites": [
+      "wd-020"
+    ],
+    "duration_hours": 5,
+    "url": "https://react.dev/learn/thinking-in-react",
+    "description": "Compound components, render props, and performance optimization patterns in React."
+  },
+  {
+    "id": "wd-041",
+    "title": "End-to-End Testing with Cypress",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "testing",
+      "cypress",
+      "e2e"
+    ],
+    "prerequisites": [
+      "wd-027"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.cypress.io/guides/overview/why-cypress",
+    "description": "Automated browser testing to validate complete user flows."
+  },
+  {
+    "id": "wd-042",
+    "title": "Progressive Web Apps",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "pwa",
+      "offline"
+    ],
+    "prerequisites": [
+      "wd-029"
+    ],
+    "duration_hours": 4,
+    "url": "https://web.dev/explore/progressive-web-apps",
+    "description": "Service workers, offline support, and installable web apps."
+  },
+  {
+    "id": "wd-043",
+    "title": "System Design for Web Applications",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "system-design",
+      "architecture"
+    ],
+    "prerequisites": [
+      "wd-031",
+      "wd-035"
+    ],
+    "duration_hours": 6,
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "description": "Scalability, caching, load balancing, and architecture trade-offs for web systems."
+  },
+  {
+    "id": "wd-044",
+    "title": "E-Commerce App (Project)",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "react",
+      "nodejs",
+      "project",
+      "fullstack"
+    ],
+    "prerequisites": [
+      "wd-033",
+      "wd-037"
+    ],
+    "duration_hours": 14,
+    "url": "https://nextjs.org/learn/dashboard-app",
+    "description": "Build a full-stack e-commerce application with auth, cart, and checkout flow."
+  },
+  {
+    "id": "wd-045",
+    "title": "Real-Time Chat App (Project)",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "websockets",
+      "project",
+      "fullstack"
+    ],
+    "prerequisites": [
+      "wd-038"
+    ],
+    "duration_hours": 10,
+    "url": "https://socket.io/get-started/chat",
+    "description": "Build a real-time chat application using WebSockets and a Node.js backend."
+  },
+  {
+    "id": "wd-046",
+    "title": "Full-Stack Capstone Project",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "capstone",
+      "fullstack",
+      "project"
+    ],
+    "prerequisites": [
+      "wd-043"
+    ],
+    "duration_hours": 20,
+    "url": "https://roadmap.sh/full-stack",
+    "description": "Design, build, and deploy a complete full-stack application from scratch."
+  },
+  {
+    "id": "wd-047",
+    "title": "Advanced Web Dev Assessment",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "advanced"
+    ],
+    "prerequisites": [
+      "wd-037",
+      "wd-041"
+    ],
+    "duration_hours": 1,
+    "url": "https://roadmap.sh/full-stack",
+    "description": "Quiz covering authentication, testing, and system design fundamentals."
+  },
+  {
+    "id": "wd-048",
+    "title": "Web Accessibility Advanced (WCAG)",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "accessibility",
+      "wcag"
+    ],
+    "prerequisites": [
+      "wd-009"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.w3.org/WAI/WCAG21/quickref/",
+    "description": "Deep dive into WCAG success criteria for building fully accessible interfaces."
+  },
+  {
+    "id": "wd-049",
+    "title": "The Odin Project Full Stack Path",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "book",
+    "tags": [
+      "fullstack",
+      "curriculum"
+    ],
+    "prerequisites": [
+      "wd-023"
+    ],
+    "duration_hours": 40,
+    "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+    "description": "A comprehensive, project-based full-stack JavaScript curriculum."
+  },
+  {
+    "id": "wd-050",
+    "title": "Frontend System Design",
+    "domain": "web_development",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "system-design",
+      "frontend"
+    ],
+    "prerequisites": [
+      "wd-040"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.patterns.dev/",
+    "description": "Design patterns and architectural decisions for large-scale frontend applications."
+  },
+  {
+    "id": "ds-001",
+    "title": "Python for Data Analysis Basics",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "python",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/learn/python",
+    "description": "An introduction to Python syntax, data types, and control flow for data work."
+  },
+  {
+    "id": "ds-002",
+    "title": "NumPy Fundamentals",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "numpy",
+      "python"
+    ],
+    "prerequisites": [
+      "ds-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://numpy.org/doc/stable/user/quickstart.html",
+    "description": "Arrays, vectorized operations, and numerical computing with NumPy."
+  },
+  {
+    "id": "ds-003",
+    "title": "Pandas for Data Analysis",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "pandas",
+      "python",
+      "data-wrangling"
+    ],
+    "prerequisites": [
+      "ds-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/learn/pandas",
+    "description": "Load, clean, filter, and transform tabular data using pandas DataFrames."
+  },
+  {
+    "id": "ds-004",
+    "title": "Data Visualization Basics",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "visualization",
+      "matplotlib"
+    ],
+    "prerequisites": [
+      "ds-003"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/data-visualization",
+    "description": "Create charts and plots to explore and communicate data using Matplotlib and Seaborn."
+  },
+  {
+    "id": "ds-005",
+    "title": "Statistics Fundamentals",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "statistics",
+      "math"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "description": "Descriptive statistics, distributions, and probability basics for data analysis."
+  },
+  {
+    "id": "ds-006",
+    "title": "SQL Fundamentals for Data",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "sql",
+      "database"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/intro-to-sql",
+    "description": "Query relational databases to extract and aggregate data using SQL."
+  },
+  {
+    "id": "ds-007",
+    "title": "Excel and Spreadsheets for Data",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "excel",
+      "spreadsheets"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://support.microsoft.com/en-us/excel",
+    "description": "Pivot tables, formulas, and basic data analysis in spreadsheets."
+  },
+  {
+    "id": "ds-008",
+    "title": "Jupyter Notebooks Intro",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "tools",
+      "jupyter"
+    ],
+    "prerequisites": [
+      "ds-001"
+    ],
+    "duration_hours": 2,
+    "url": "https://jupyter.org/try",
+    "description": "Interactive coding, documentation, and visualization in Jupyter notebooks."
+  },
+  {
+    "id": "ds-009",
+    "title": "Data Science Roadmap Overview",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "roadmap",
+      "overview"
+    ],
+    "prerequisites": [],
+    "duration_hours": 1,
+    "url": "https://roadmap.sh/ai-data-scientist",
+    "description": "A visual overview of the data science learning path from basics to advanced."
+  },
+  {
+    "id": "ds-010",
+    "title": "Data Cleaning Project",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "project",
+    "tags": [
+      "pandas",
+      "cleaning",
+      "project"
+    ],
+    "prerequisites": [
+      "ds-003"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/data-cleaning",
+    "description": "Practice handling missing values, duplicates, and inconsistent formats on a real dataset."
+  },
+  {
+    "id": "ds-011",
+    "title": "Data Science Foundations Assessment",
+    "domain": "data_science",
+    "level": "beginner",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "python",
+      "pandas"
+    ],
+    "prerequisites": [
+      "ds-004"
+    ],
+    "duration_hours": 1,
+    "url": "https://www.kaggle.com/learn/python",
+    "description": "Quiz covering Python, NumPy, Pandas, and basic visualization."
+  },
+  {
+    "id": "ds-012",
+    "title": "Exploratory Data Analysis",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "eda",
+      "pandas"
+    ],
+    "prerequisites": [
+      "ds-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.kaggle.com/learn/pandas",
+    "description": "Systematically explore a dataset to find patterns, outliers, and relationships."
+  },
+  {
+    "id": "ds-013",
+    "title": "Intermediate Statistics & Probability",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "statistics",
+      "probability"
+    ],
+    "prerequisites": [
+      "ds-005"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "description": "Hypothesis testing, confidence intervals, and probability distributions."
+  },
+  {
+    "id": "ds-014",
+    "title": "Advanced Data Visualization",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "visualization",
+      "plotly",
+      "tableau"
+    ],
+    "prerequisites": [
+      "ds-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.tableau.com/learn/training",
+    "description": "Build interactive dashboards and advanced visualizations for stakeholders."
+  },
+  {
+    "id": "ds-015",
+    "title": "Intermediate SQL: Joins & Window Functions",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "sql",
+      "joins"
+    ],
+    "prerequisites": [
+      "ds-006"
+    ],
+    "duration_hours": 5,
+    "url": "https://mode.com/sql-tutorial/",
+    "description": "Combine tables and perform advanced aggregations with joins and window functions."
+  },
+  {
+    "id": "ds-016",
+    "title": "A/B Testing Fundamentals",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ab-testing",
+      "experimentation"
+    ],
+    "prerequisites": [
+      "ds-013"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample",
+    "description": "Design and interpret controlled experiments to measure product changes."
+  },
+  {
+    "id": "ds-017",
+    "title": "Introduction to Machine Learning",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "intro"
+    ],
+    "prerequisites": [
+      "ds-003",
+      "ds-013"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Train your first models: decision trees, model validation, and underfitting/overfitting."
+  },
+  {
+    "id": "ds-018",
+    "title": "scikit-learn Practical Guide",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "scikit-learn",
+      "machine-learning"
+    ],
+    "prerequisites": [
+      "ds-017"
+    ],
+    "duration_hours": 6,
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "description": "Build, train, and evaluate machine learning models using scikit-learn's API."
+  },
+  {
+    "id": "ds-019",
+    "title": "Regression Analysis",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "regression",
+      "statistics"
+    ],
+    "prerequisites": [
+      "ds-018"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+    "description": "Linear and logistic regression for prediction and classification tasks."
+  },
+  {
+    "id": "ds-020",
+    "title": "Classification Algorithms",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "classification",
+      "machine-learning"
+    ],
+    "prerequisites": [
+      "ds-018"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+    "description": "Decision trees, random forests, and evaluating classifier performance."
+  },
+  {
+    "id": "ds-021",
+    "title": "Feature Engineering",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "feature-engineering"
+    ],
+    "prerequisites": [
+      "ds-018"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/feature-engineering",
+    "description": "Transform raw data into features that improve model performance."
+  },
+  {
+    "id": "ds-022",
+    "title": "Time Series Analysis Basics",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "time-series",
+      "forecasting"
+    ],
+    "prerequisites": [
+      "ds-019"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/time-series",
+    "description": "Trend, seasonality, and forecasting methods for sequential data."
+  },
+  {
+    "id": "ds-023",
+    "title": "Data Storytelling",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "communication",
+      "storytelling"
+    ],
+    "prerequisites": [
+      "ds-014"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.storytellingwithdata.com/blog",
+    "description": "Communicate analytical findings clearly and persuasively to non-technical audiences."
+  },
+  {
+    "id": "ds-024",
+    "title": "Git for Data Scientists",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "prerequisites": [],
+    "duration_hours": 2,
+    "url": "https://www.atlassian.com/git/tutorials",
+    "description": "Version control basics tailored to notebooks, datasets, and reproducible analysis."
+  },
+  {
+    "id": "ds-025",
+    "title": "Predictive Modeling Project",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "machine-learning",
+      "project"
+    ],
+    "prerequisites": [
+      "ds-020"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/competitions",
+    "description": "Build an end-to-end predictive model on a real dataset from a Kaggle competition."
+  },
+  {
+    "id": "ds-026",
+    "title": "Interactive Dashboard Project",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "tableau",
+      "visualization",
+      "project"
+    ],
+    "prerequisites": [
+      "ds-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.tableau.com/learn/training",
+    "description": "Design and publish an interactive dashboard summarizing a real dataset."
+  },
+  {
+    "id": "ds-027",
+    "title": "Intermediate Data Science Assessment",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "machine-learning"
+    ],
+    "prerequisites": [
+      "ds-020"
+    ],
+    "duration_hours": 1,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Quiz covering EDA, regression, classification, and feature engineering."
+  },
+  {
+    "id": "ds-028",
+    "title": "Advanced ML: Ensemble Methods",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "ensemble",
+      "machine-learning"
+    ],
+    "prerequisites": [
+      "ds-020"
+    ],
+    "duration_hours": 6,
+    "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+    "description": "Random forests, gradient boosting, and stacking for higher-accuracy models."
+  },
+  {
+    "id": "ds-029",
+    "title": "Model Evaluation & Validation",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "model-evaluation",
+      "cross-validation"
+    ],
+    "prerequisites": [
+      "ds-020"
+    ],
+    "duration_hours": 4,
+    "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "description": "Cross-validation, ROC/AUC, and avoiding data leakage in model evaluation."
+  },
+  {
+    "id": "ds-030",
+    "title": "Hyperparameter Tuning",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "hyperparameter-tuning",
+      "optimization"
+    ],
+    "prerequisites": [
+      "ds-029"
+    ],
+    "duration_hours": 3,
+    "url": "https://scikit-learn.org/stable/modules/grid_search.html",
+    "description": "Grid search, random search, and Bayesian optimization for model tuning."
+  },
+  {
+    "id": "ds-031",
+    "title": "Big Data with Spark Basics",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "spark",
+      "big-data"
+    ],
+    "prerequisites": [
+      "ds-015"
+    ],
+    "duration_hours": 6,
+    "url": "https://spark.apache.org/docs/latest/quick-start.html",
+    "description": "Process large-scale datasets using Apache Spark's distributed computing model."
+  },
+  {
+    "id": "ds-032",
+    "title": "Cloud Data Platforms (BigQuery)",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "cloud",
+      "bigquery"
+    ],
+    "prerequisites": [
+      "ds-015"
+    ],
+    "duration_hours": 4,
+    "url": "https://cloud.google.com/bigquery/docs/introduction",
+    "description": "Run analytical SQL queries at scale using Google BigQuery."
+  },
+  {
+    "id": "ds-033",
+    "title": "Experiment Design & Causal Inference",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "causal-inference",
+      "experimentation"
+    ],
+    "prerequisites": [
+      "ds-016"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "description": "Move beyond correlation to estimate causal effects in observational and experimental data."
+  },
+  {
+    "id": "ds-034",
+    "title": "MLOps Fundamentals",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "mlops",
+      "deployment"
+    ],
+    "prerequisites": [
+      "ds-028"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "description": "Deploy, monitor, and maintain machine learning models in production."
+  },
+  {
+    "id": "ds-035",
+    "title": "Data Engineering Basics (ETL)",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "data-engineering",
+      "etl"
+    ],
+    "prerequisites": [
+      "ds-015"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/news/data-engineering-for-beginners/",
+    "description": "Extract-transform-load pipelines for moving and preparing data at scale."
+  },
+  {
+    "id": "ds-036",
+    "title": "Advanced SQL for Analytics",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "sql",
+      "analytics"
+    ],
+    "prerequisites": [
+      "ds-015"
+    ],
+    "duration_hours": 5,
+    "url": "https://mode.com/sql-tutorial/",
+    "description": "CTEs, subqueries, and performance optimization for analytical SQL queries."
+  },
+  {
+    "id": "ds-037",
+    "title": "Deep Learning for Data Science",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "neural-networks"
+    ],
+    "prerequisites": [
+      "ds-028"
+    ],
+    "duration_hours": 7,
+    "url": "https://course.fast.ai/",
+    "description": "Applying neural networks to tabular, text, and image data science problems."
+  },
+  {
+    "id": "ds-038",
+    "title": "Data Science System Design",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "system-design",
+      "architecture"
+    ],
+    "prerequisites": [
+      "ds-034"
+    ],
+    "duration_hours": 4,
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "description": "Designing end-to-end data pipelines and ML systems for production scale."
+  },
+  {
+    "id": "ds-039",
+    "title": "A/B Test Analysis Project",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "ab-testing",
+      "project"
+    ],
+    "prerequisites": [
+      "ds-033"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample",
+    "description": "Analyze a real or simulated A/B test dataset and present statistically sound conclusions."
+  },
+  {
+    "id": "ds-040",
+    "title": "End-to-End ML Pipeline Project",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "mlops",
+      "project",
+      "machine-learning"
+    ],
+    "prerequisites": [
+      "ds-034"
+    ],
+    "duration_hours": 12,
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "description": "Build, deploy, and monitor a complete machine learning pipeline."
+  },
+  {
+    "id": "ds-041",
+    "title": "Data Science Capstone Project",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "capstone",
+      "project"
+    ],
+    "prerequisites": [
+      "ds-037"
+    ],
+    "duration_hours": 20,
+    "url": "https://www.kaggle.com/competitions",
+    "description": "An end-to-end data science project from raw data to a deployed, communicated result."
+  },
+  {
+    "id": "ds-042",
+    "title": "Advanced Data Science Assessment",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "advanced"
+    ],
+    "prerequisites": [
+      "ds-034"
+    ],
+    "duration_hours": 1,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Quiz covering ensemble methods, MLOps, and data engineering fundamentals."
+  },
+  {
+    "id": "ds-043",
+    "title": "Google Data Analytics Certificate",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "career",
+      "certificate"
+    ],
+    "prerequisites": [
+      "ds-006"
+    ],
+    "duration_hours": 40,
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "description": "A structured, job-oriented path covering the full data analyst toolkit."
+  },
+  {
+    "id": "ds-044",
+    "title": "Applied Data Science with Python",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "book",
+    "tags": [
+      "python",
+      "applied"
+    ],
+    "prerequisites": [
+      "ds-003"
+    ],
+    "duration_hours": 25,
+    "url": "https://www.coursera.org/specializations/data-science-python",
+    "description": "A applied curriculum covering data analysis, visualization, and machine learning in Python."
+  },
+  {
+    "id": "ai-001",
+    "title": "Python for AI Basics",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "python",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/learn/python",
+    "description": "Python syntax and programming fundamentals needed before starting machine learning."
+  },
+  {
+    "id": "ai-002",
+    "title": "Linear Algebra for Machine Learning",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "math",
+      "linear-algebra"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://www.khanacademy.org/math/linear-algebra",
+    "description": "Vectors, matrices, and operations that underpin machine learning algorithms."
+  },
+  {
+    "id": "ai-003",
+    "title": "Calculus for Machine Learning",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "math",
+      "calculus"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://www.khanacademy.org/math/calculus-1",
+    "description": "Derivatives and gradients \u2014 the foundation of how models learn via optimization."
+  },
+  {
+    "id": "ai-004",
+    "title": "Probability for Machine Learning",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "math",
+      "probability"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "description": "Probability distributions and Bayesian reasoning used throughout ML."
+  },
+  {
+    "id": "ai-005",
+    "title": "Google Machine Learning Crash Course",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "intro"
+    ],
+    "prerequisites": [
+      "ai-001"
+    ],
+    "duration_hours": 10,
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "description": "A fast-paced introduction to ML concepts with hands-on TensorFlow exercises."
+  },
+  {
+    "id": "ai-006",
+    "title": "Neural Networks Visually Explained",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "video",
+    "tags": [
+      "neural-networks",
+      "intro"
+    ],
+    "prerequisites": [
+      "ai-002"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.3blue1brown.com/topics/neural-networks",
+    "description": "An intuitive, visual explanation of how neural networks learn."
+  },
+  {
+    "id": "ai-007",
+    "title": "Math for ML Roadmap",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "roadmap",
+      "math"
+    ],
+    "prerequisites": [],
+    "duration_hours": 1,
+    "url": "https://roadmap.sh/ai-data-scientist",
+    "description": "An overview of the math foundations needed before diving into ML and AI."
+  },
+  {
+    "id": "ai-008",
+    "title": "Intro to Machine Learning Concepts",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "intro"
+    ],
+    "prerequisites": [
+      "ai-001",
+      "ai-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Supervised vs. unsupervised learning, and training your first simple model."
+  },
+  {
+    "id": "ai-009",
+    "title": "AI/ML Foundations Assessment",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "math",
+      "ml"
+    ],
+    "prerequisites": [
+      "ai-005"
+    ],
+    "duration_hours": 1,
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "description": "Quiz covering math foundations and basic ML concepts."
+  },
+  {
+    "id": "ai-010",
+    "title": "Supervised Learning",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "supervised-learning"
+    ],
+    "prerequisites": [
+      "ai-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Regression and classification: training models to predict labeled outcomes."
+  },
+  {
+    "id": "ai-011",
+    "title": "Unsupervised Learning",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unsupervised-learning",
+      "clustering"
+    ],
+    "prerequisites": [
+      "ai-008"
+    ],
+    "duration_hours": 5,
+    "url": "https://scikit-learn.org/stable/modules/clustering.html",
+    "description": "Clustering and dimensionality reduction for finding structure in unlabeled data."
+  },
+  {
+    "id": "ai-012",
+    "title": "scikit-learn for ML Practitioners",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "scikit-learn"
+    ],
+    "prerequisites": [
+      "ai-010"
+    ],
+    "duration_hours": 6,
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "description": "Practical model building, pipelines, and evaluation using scikit-learn."
+  },
+  {
+    "id": "ai-013",
+    "title": "Model Evaluation Metrics",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "evaluation",
+      "metrics"
+    ],
+    "prerequisites": [
+      "ai-010"
+    ],
+    "duration_hours": 3,
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "description": "Accuracy, precision, recall, F1, and choosing the right metric for the task."
+  },
+  {
+    "id": "ai-014",
+    "title": "Feature Engineering for ML",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "feature-engineering"
+    ],
+    "prerequisites": [
+      "ai-012"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.kaggle.com/learn/feature-engineering",
+    "description": "Turning raw data into informative features that improve model performance."
+  },
+  {
+    "id": "ai-015",
+    "title": "Introduction to Deep Learning",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "intro"
+    ],
+    "prerequisites": [
+      "ai-006",
+      "ai-010"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "description": "Neural network architecture, backpropagation, and training fundamentals."
+  },
+  {
+    "id": "ai-016",
+    "title": "Neural Networks with PyTorch",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "pytorch",
+      "deep-learning"
+    ],
+    "prerequisites": [
+      "ai-015"
+    ],
+    "duration_hours": 7,
+    "url": "https://pytorch.org/tutorials/",
+    "description": "Build and train neural networks using the PyTorch framework."
+  },
+  {
+    "id": "ai-017",
+    "title": "Neural Networks with TensorFlow/Keras",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "tensorflow",
+      "keras",
+      "deep-learning"
+    ],
+    "prerequisites": [
+      "ai-015"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.tensorflow.org/tutorials",
+    "description": "Build and train neural networks using TensorFlow and the Keras API."
+  },
+  {
+    "id": "ai-018",
+    "title": "Convolutional Neural Networks Basics",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "cnn",
+      "computer-vision"
+    ],
+    "prerequisites": [
+      "ai-016"
+    ],
+    "duration_hours": 6,
+    "url": "https://cs231n.github.io/",
+    "description": "Image feature extraction and classification using convolutional neural networks."
+  },
+  {
+    "id": "ai-019",
+    "title": "Recurrent Neural Networks & Sequences",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "rnn",
+      "sequence-models"
+    ],
+    "prerequisites": [
+      "ai-016"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.coursera.org/learn/nlp-sequence-models",
+    "description": "Modeling sequential data like text and time series with RNNs and LSTMs."
+  },
+  {
+    "id": "ai-020",
+    "title": "Natural Language Processing Basics",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "nlp"
+    ],
+    "prerequisites": [
+      "ai-019"
+    ],
+    "duration_hours": 6,
+    "url": "https://huggingface.co/learn/nlp-course",
+    "description": "Text preprocessing, embeddings, and classic NLP tasks like sentiment analysis."
+  },
+  {
+    "id": "ai-021",
+    "title": "Computer Vision Basics",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "computer-vision"
+    ],
+    "prerequisites": [
+      "ai-018"
+    ],
+    "duration_hours": 6,
+    "url": "https://cs231n.github.io/",
+    "description": "Image classification, object detection basics, and CV pipelines."
+  },
+  {
+    "id": "ai-022",
+    "title": "MLOps Introduction",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "mlops"
+    ],
+    "prerequisites": [
+      "ai-012"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "description": "Deploying, versioning, and monitoring machine learning models in production."
+  },
+  {
+    "id": "ai-023",
+    "title": "Ethics and Responsible AI",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "ethics",
+      "responsible-ai"
+    ],
+    "prerequisites": [
+      "ai-008"
+    ],
+    "duration_hours": 3,
+    "url": "https://ai.google/responsibility/",
+    "description": "Bias, fairness, and the societal impact of deployed AI systems."
+  },
+  {
+    "id": "ai-024",
+    "title": "Image Classifier Project",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "computer-vision",
+      "project"
+    ],
+    "prerequisites": [
+      "ai-018"
+    ],
+    "duration_hours": 8,
+    "url": "https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html",
+    "description": "Train an image classification model from scratch and evaluate its accuracy."
+  },
+  {
+    "id": "ai-025",
+    "title": "NLP Sentiment Analysis Project",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "project",
+    "tags": [
+      "nlp",
+      "project"
+    ],
+    "prerequisites": [
+      "ai-020"
+    ],
+    "duration_hours": 6,
+    "url": "https://huggingface.co/learn/nlp-course",
+    "description": "Build a sentiment classifier for text data using a trained NLP model."
+  },
+  {
+    "id": "ai-026",
+    "title": "Intermediate AI/ML Assessment",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "deep-learning"
+    ],
+    "prerequisites": [
+      "ai-017"
+    ],
+    "duration_hours": 1,
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "description": "Quiz covering supervised/unsupervised learning and deep learning basics."
+  },
+  {
+    "id": "ai-027",
+    "title": "Transformers and Attention Mechanisms",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "transformers",
+      "attention"
+    ],
+    "prerequisites": [
+      "ai-019",
+      "ai-020"
+    ],
+    "duration_hours": 7,
+    "url": "https://huggingface.co/learn/nlp-course/chapter1/4",
+    "description": "The architecture behind modern NLP and LLMs: self-attention and transformer blocks."
+  },
+  {
+    "id": "ai-028",
+    "title": "Large Language Model Fundamentals",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "llm",
+      "genai"
+    ],
+    "prerequisites": [
+      "ai-027"
+    ],
+    "duration_hours": 6,
+    "url": "https://huggingface.co/learn/llm-course",
+    "description": "How large language models are trained, and what makes them capable and limited."
+  },
+  {
+    "id": "ai-029",
+    "title": "Prompt Engineering",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "prompt-engineering",
+      "llm"
+    ],
+    "prerequisites": [
+      "ai-028"
+    ],
+    "duration_hours": 4,
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "description": "Techniques for reliably eliciting the outputs you want from an LLM."
+  },
+  {
+    "id": "ai-030",
+    "title": "Fine-Tuning LLMs",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "fine-tuning",
+      "llm"
+    ],
+    "prerequisites": [
+      "ai-028"
+    ],
+    "duration_hours": 7,
+    "url": "https://huggingface.co/docs/transformers/training",
+    "description": "Adapt a pretrained language model to a specific task or dataset."
+  },
+  {
+    "id": "ai-031",
+    "title": "Generative AI: Diffusion Models",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "diffusion"
+    ],
+    "prerequisites": [
+      "ai-021"
+    ],
+    "duration_hours": 6,
+    "url": "https://huggingface.co/learn/diffusion-course",
+    "description": "How image-generation models like Stable Diffusion work, from noise to image."
+  },
+  {
+    "id": "ai-032",
+    "title": "Reinforcement Learning Basics",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "reinforcement-learning"
+    ],
+    "prerequisites": [
+      "ai-015"
+    ],
+    "duration_hours": 7,
+    "url": "https://spinningup.openai.com/",
+    "description": "Agents, environments, and reward-based learning \u2014 the foundations of RL."
+  },
+  {
+    "id": "ai-033",
+    "title": "Advanced NLP: BERT and GPT Architectures",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "nlp",
+      "bert",
+      "gpt"
+    ],
+    "prerequisites": [
+      "ai-027"
+    ],
+    "duration_hours": 6,
+    "url": "https://huggingface.co/learn/nlp-course/chapter3/1",
+    "description": "Deep dive into encoder and decoder transformer architectures."
+  },
+  {
+    "id": "ai-034",
+    "title": "Advanced Computer Vision: Object Detection",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "computer-vision",
+      "object-detection"
+    ],
+    "prerequisites": [
+      "ai-021"
+    ],
+    "duration_hours": 7,
+    "url": "https://cs231n.github.io/",
+    "description": "Detect and localize multiple objects within images using modern CV architectures."
+  },
+  {
+    "id": "ai-035",
+    "title": "Model Deployment and Serving",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "deployment",
+      "mlops"
+    ],
+    "prerequisites": [
+      "ai-022"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "description": "Serve trained models via APIs and scale inference in production."
+  },
+  {
+    "id": "ai-036",
+    "title": "ML System Design",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "system-design",
+      "ml"
+    ],
+    "prerequisites": [
+      "ai-035"
+    ],
+    "duration_hours": 4,
+    "url": "https://github.com/chiphuyen/machine-learning-systems-design",
+    "description": "Designing end-to-end ML systems: data, training, serving, and monitoring."
+  },
+  {
+    "id": "ai-037",
+    "title": "Distributed Training Basics",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "distributed-training"
+    ],
+    "prerequisites": [
+      "ai-030"
+    ],
+    "duration_hours": 4,
+    "url": "https://pytorch.org/tutorials/beginner/dist_overview.html",
+    "description": "Training large models across multiple GPUs or machines."
+  },
+  {
+    "id": "ai-038",
+    "title": "AI Safety and Alignment Basics",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "ai-safety",
+      "alignment"
+    ],
+    "prerequisites": [
+      "ai-023"
+    ],
+    "duration_hours": 3,
+    "url": "https://ai.google/responsibility/",
+    "description": "An introduction to the challenges of building AI systems that behave as intended."
+  },
+  {
+    "id": "ai-039",
+    "title": "Vector Databases and Embeddings",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "embeddings",
+      "vector-database"
+    ],
+    "prerequisites": [
+      "ai-028"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.pinecone.io/learn/",
+    "description": "Represent and search unstructured data efficiently using vector embeddings."
+  },
+  {
+    "id": "ai-040",
+    "title": "Building RAG Applications",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "rag",
+      "llm",
+      "langchain"
+    ],
+    "prerequisites": [
+      "ai-039"
+    ],
+    "duration_hours": 6,
+    "url": "https://python.langchain.com/docs/tutorials/rag/",
+    "description": "Ground LLM responses in your own data using retrieval-augmented generation."
+  },
+  {
+    "id": "ai-041",
+    "title": "MLOps Advanced: CI/CD for ML",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "mlops",
+      "ci-cd"
+    ],
+    "prerequisites": [
+      "ai-035"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "description": "Automated testing, versioning, and continuous deployment for ML models."
+  },
+  {
+    "id": "ai-042",
+    "title": "Build a Chatbot with an LLM API (Project)",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "llm",
+      "project",
+      "chatbot"
+    ],
+    "prerequisites": [
+      "ai-029"
+    ],
+    "duration_hours": 6,
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "description": "Build a working chatbot application using a hosted LLM API."
+  },
+  {
+    "id": "ai-043",
+    "title": "Fine-Tune a Small Model (Project)",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "fine-tuning",
+      "project"
+    ],
+    "prerequisites": [
+      "ai-030"
+    ],
+    "duration_hours": 10,
+    "url": "https://huggingface.co/docs/transformers/training",
+    "description": "Fine-tune a pretrained model on a custom dataset and evaluate the results."
+  },
+  {
+    "id": "ai-044",
+    "title": "Recommendation System (Project)",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "recommendation-system",
+      "project"
+    ],
+    "prerequisites": [
+      "ai-011"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "description": "Build a content- or collaboration-based recommendation engine."
+  },
+  {
+    "id": "ai-045",
+    "title": "RAG Application (Project)",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "rag",
+      "project",
+      "llm"
+    ],
+    "prerequisites": [
+      "ai-040"
+    ],
+    "duration_hours": 10,
+    "url": "https://python.langchain.com/docs/tutorials/rag/",
+    "description": "Build a retrieval-augmented question-answering app over a custom document set."
+  },
+  {
+    "id": "ai-046",
+    "title": "AI Engineer Capstone Project",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "project",
+    "tags": [
+      "capstone",
+      "project"
+    ],
+    "prerequisites": [
+      "ai-040"
+    ],
+    "duration_hours": 20,
+    "url": "https://huggingface.co/learn/llm-course",
+    "description": "An end-to-end AI application combining retrieval, an LLM, and a deployed interface."
+  },
+  {
+    "id": "ai-047",
+    "title": "Advanced AI/ML Assessment",
+    "domain": "ai_ml",
+    "level": "advanced",
+    "type": "assessment",
+    "tags": [
+      "assessment",
+      "advanced"
+    ],
+    "prerequisites": [
+      "ai-033",
+      "ai-035"
+    ],
+    "duration_hours": 1,
+    "url": "https://huggingface.co/learn/llm-course",
+    "description": "Quiz covering transformers, LLMs, fine-tuning, and ML system design."
+  },
+  {
+    "id": "ai-048",
+    "title": "Deep Learning Specialization (deeplearning.ai)",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "book",
+    "tags": [
+      "deep-learning",
+      "certificate"
+    ],
+    "prerequisites": [
+      "ai-015"
+    ],
+    "duration_hours": 40,
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "description": "A structured, in-depth curriculum covering neural networks through sequence models."
+  },
+  {
+    "id": "ai-049",
+    "title": "Practical Deep Learning for Coders (fast.ai)",
+    "domain": "ai_ml",
+    "level": "intermediate",
+    "type": "book",
+    "tags": [
+      "deep-learning",
+      "applied"
+    ],
+    "prerequisites": [
+      "ai-016"
+    ],
+    "duration_hours": 30,
+    "url": "https://course.fast.ai/",
+    "description": "A top-down, code-first deep learning course used by practitioners worldwide."
+  },
+  {
+    "id": "ai-050",
+    "title": "Andrew Ng's Machine Learning Course",
+    "domain": "ai_ml",
+    "level": "beginner",
+    "type": "book",
+    "tags": [
+      "machine-learning",
+      "foundational"
+    ],
+    "prerequisites": [
+      "ai-004"
+    ],
+    "duration_hours": 30,
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "description": "The classic, foundational course covering core ML algorithms and intuition."
+  },
+  {
+    "id": "ds-045",
+    "title": "Causal Inference Deep Dive",
+    "domain": "data_science",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "causal-inference",
+      "statistics"
+    ],
+    "prerequisites": [
+      "ds-033"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "description": "A deeper look at causal inference techniques beyond basic A/B testing."
+  },
+  {
+    "id": "ds-046",
+    "title": "Data Science Portfolio Building",
+    "domain": "data_science",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "career",
+      "portfolio"
+    ],
+    "prerequisites": [
+      "ds-025"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.kaggle.com/competitions",
+    "description": "How to package and present data science projects for job applications."
+  },
+  {
+    "id": "do-001",
+    "title": "Linux Fundamentals for DevOps",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "linux",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://linuxjourney.com/",
+    "description": "Core Linux skills every DevOps engineer needs: the filesystem, permissions, processes, and the shell."
+  },
+  {
+    "id": "do-002",
+    "title": "Bash Scripting Essentials",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "bash",
+      "scripting"
+    ],
+    "prerequisites": [
+      "do-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/",
+    "description": "Write shell scripts to automate common sysadmin and deployment tasks."
+  },
+  {
+    "id": "do-003",
+    "title": "Git & GitHub for DevOps",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "git",
+      "github",
+      "version-control"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://docs.github.com/en/get-started/getting-started-with-git",
+    "description": "Version control fundamentals, branching strategies, and collaborating on GitHub."
+  },
+  {
+    "id": "do-004",
+    "title": "Docker Basics",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "docker",
+      "containers"
+    ],
+    "prerequisites": [
+      "do-001",
+      "do-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.docker.com/get-started/",
+    "description": "Build, run, and manage containers with Docker: images, containers, volumes, and networking."
+  },
+  {
+    "id": "do-005",
+    "title": "Writing Production Dockerfiles",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "docker",
+      "best-practices"
+    ],
+    "prerequisites": [
+      "do-004"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.docker.com/build/building/best-practices/",
+    "description": "Multi-stage builds, layer caching, and best practices for small, secure images."
+  },
+  {
+    "id": "do-006",
+    "title": "Docker Compose",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "docker",
+      "compose"
+    ],
+    "prerequisites": [
+      "do-005"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.docker.com/compose/",
+    "description": "Define and run multi-container applications with a single YAML file."
+  },
+  {
+    "id": "do-007",
+    "title": "Container Registries & Image Distribution",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "docker",
+      "registry"
+    ],
+    "prerequisites": [
+      "do-006"
+    ],
+    "duration_hours": 3,
+    "url": "https://docs.docker.com/docker-hub/",
+    "description": "Push, pull, tag, and version container images using Docker Hub and other registries."
+  },
+  {
+    "id": "do-008",
+    "title": "Kubernetes Fundamentals",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "kubernetes",
+      "containers"
+    ],
+    "prerequisites": [
+      "do-007"
+    ],
+    "duration_hours": 10,
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+    "description": "Interactive introduction to Kubernetes clusters, nodes, and the core control loop."
+  },
+  {
+    "id": "do-009",
+    "title": "Pods, Deployments & Services",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "kubernetes",
+      "workloads"
+    ],
+    "prerequisites": [
+      "do-008"
+    ],
+    "duration_hours": 8,
+    "url": "https://kubernetes.io/docs/concepts/workloads/pods/",
+    "description": "Core Kubernetes objects: Pods, ReplicaSets, Deployments, and how Services expose them."
+  },
+  {
+    "id": "do-010",
+    "title": "ConfigMaps & Secrets",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "kubernetes",
+      "configuration"
+    ],
+    "prerequisites": [
+      "do-009"
+    ],
+    "duration_hours": 4,
+    "url": "https://kubernetes.io/docs/concepts/configuration/configmap/",
+    "description": "Externalize configuration and sensitive data from container images using ConfigMaps and Secrets."
+  },
+  {
+    "id": "do-011",
+    "title": "Helm Charts",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "kubernetes",
+      "helm"
+    ],
+    "prerequisites": [
+      "do-010"
+    ],
+    "duration_hours": 6,
+    "url": "https://helm.sh/docs/intro/quickstart/",
+    "description": "Package, template, and version Kubernetes manifests with Helm, the Kubernetes package manager."
+  },
+  {
+    "id": "do-012",
+    "title": "Kubernetes Networking",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "kubernetes",
+      "networking"
+    ],
+    "prerequisites": [
+      "do-009"
+    ],
+    "duration_hours": 7,
+    "url": "https://kubernetes.io/docs/concepts/services-networking/",
+    "description": "Cluster networking model, Ingress, NetworkPolicies, and service discovery."
+  },
+  {
+    "id": "do-013",
+    "title": "Kubernetes Storage",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "kubernetes",
+      "storage"
+    ],
+    "prerequisites": [
+      "do-009"
+    ],
+    "duration_hours": 5,
+    "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+    "description": "Persistent Volumes, Claims, and StorageClasses for stateful workloads."
+  },
+  {
+    "id": "do-014",
+    "title": "CKA Certification Prep",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "kubernetes",
+      "certification",
+      "cka"
+    ],
+    "prerequisites": [
+      "do-011",
+      "do-012",
+      "do-013"
+    ],
+    "duration_hours": 12,
+    "url": "https://www.cncf.io/training/certification/cka/",
+    "description": "Exam curriculum, domains, and study plan for the Certified Kubernetes Administrator exam."
+  },
+  {
+    "id": "do-015",
+    "title": "CI/CD Concepts",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "ci-cd",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "do-003"
+    ],
+    "duration_hours": 3,
+    "url": "https://about.gitlab.com/topics/ci-cd/",
+    "description": "What continuous integration and continuous delivery are, and why teams adopt them."
+  },
+  {
+    "id": "do-016",
+    "title": "GitHub Actions Basics",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "ci-cd",
+      "github-actions"
+    ],
+    "prerequisites": [
+      "do-015"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.github.com/en/actions/learn-github-actions",
+    "description": "Automate build, test, and deploy workflows triggered by GitHub events."
+  },
+  {
+    "id": "do-017",
+    "title": "Advanced GitHub Actions Workflows",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "ci-cd",
+      "github-actions"
+    ],
+    "prerequisites": [
+      "do-016"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions",
+    "description": "Matrix builds, reusable workflows, caching, and custom actions."
+  },
+  {
+    "id": "do-018",
+    "title": "Jenkins Fundamentals",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ci-cd",
+      "jenkins"
+    ],
+    "prerequisites": [
+      "do-015"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "description": "Set up Jenkins pipelines as code with the Jenkinsfile and the Pipeline plugin."
+  },
+  {
+    "id": "do-019",
+    "title": "GitLab CI",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ci-cd",
+      "gitlab"
+    ],
+    "prerequisites": [
+      "do-015"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.gitlab.com/ee/ci/quick_start/",
+    "description": "Build .gitlab-ci.yml pipelines with stages, jobs, and runners."
+  },
+  {
+    "id": "do-020",
+    "title": "Terraform Fundamentals",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "terraform",
+      "iac"
+    ],
+    "prerequisites": [
+      "do-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+    "description": "Provision cloud infrastructure declaratively using HashiCorp Terraform."
+  },
+  {
+    "id": "do-021",
+    "title": "Infrastructure as Code Concepts",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "iac",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 2,
+    "url": "https://developer.hashicorp.com/terraform/intro",
+    "description": "Why teams manage infrastructure as versioned, reviewable code instead of manual clicks."
+  },
+  {
+    "id": "do-022",
+    "title": "Terraform Modules",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "terraform",
+      "modules"
+    ],
+    "prerequisites": [
+      "do-020"
+    ],
+    "duration_hours": 5,
+    "url": "https://developer.hashicorp.com/terraform/tutorials/modules/module",
+    "description": "Package and reuse Terraform configuration with modules and input variables."
+  },
+  {
+    "id": "do-023",
+    "title": "Terraform State Management",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "terraform",
+      "state"
+    ],
+    "prerequisites": [
+      "do-022"
+    ],
+    "duration_hours": 5,
+    "url": "https://developer.hashicorp.com/terraform/language/state",
+    "description": "Remote state, locking, and collaborating on shared Terraform state safely."
+  },
+  {
+    "id": "do-024",
+    "title": "Ansible Fundamentals",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ansible",
+      "configuration-management"
+    ],
+    "prerequisites": [
+      "do-002"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.ansible.com/ansible/latest/getting_started/index.html",
+    "description": "Agentless configuration management and automation with Ansible playbooks."
+  },
+  {
+    "id": "do-025",
+    "title": "Configuration Management with Ansible",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "ansible",
+      "automation"
+    ],
+    "prerequisites": [
+      "do-024"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.ansible.com/ansible/latest/playbook_guide/index.html",
+    "description": "Roles, inventories, and idempotent playbooks for managing fleets of servers."
+  },
+  {
+    "id": "do-026",
+    "title": "AWS Fundamentals for DevOps",
+    "domain": "devops",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "aws",
+      "cloud"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://aws.amazon.com/getting-started/",
+    "description": "Core AWS services and concepts a DevOps engineer needs day to day."
+  },
+  {
+    "id": "do-027",
+    "title": "AWS EC2 & VPC",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "ec2",
+      "vpc"
+    ],
+    "prerequisites": [
+      "do-026"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.aws.amazon.com/ec2/index.html",
+    "description": "Launch and network virtual machines with EC2 inside a Virtual Private Cloud."
+  },
+  {
+    "id": "do-028",
+    "title": "AWS IAM",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "iam",
+      "security"
+    ],
+    "prerequisites": [
+      "do-026"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+    "description": "Users, roles, and policies for controlling access to AWS resources."
+  },
+  {
+    "id": "do-029",
+    "title": "Monitoring with Prometheus",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "monitoring",
+      "prometheus"
+    ],
+    "prerequisites": [
+      "do-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://prometheus.io/docs/introduction/overview/",
+    "description": "Metrics collection, PromQL, and alerting with Prometheus."
+  },
+  {
+    "id": "do-030",
+    "title": "Grafana Dashboards",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "monitoring",
+      "grafana"
+    ],
+    "prerequisites": [
+      "do-029"
+    ],
+    "duration_hours": 4,
+    "url": "https://grafana.com/tutorials/grafana-fundamentals/",
+    "description": "Build dashboards to visualize metrics and set up alerting in Grafana."
+  },
+  {
+    "id": "do-031",
+    "title": "Logging with the ELK Stack",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "logging",
+      "elasticsearch"
+    ],
+    "prerequisites": [
+      "do-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html",
+    "description": "Centralized logging with Elasticsearch, Logstash, and Kibana."
+  },
+  {
+    "id": "do-032",
+    "title": "Site Reliability Engineering Basics",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "sre",
+      "reliability"
+    ],
+    "prerequisites": [
+      "do-029"
+    ],
+    "duration_hours": 8,
+    "url": "https://sre.google/sre-book/table-of-contents/",
+    "description": "SLOs, error budgets, and the practices Google popularized as SRE."
+  },
+  {
+    "id": "do-033",
+    "title": "Incident Management",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "incident-response",
+      "on-call"
+    ],
+    "prerequisites": [
+      "do-032"
+    ],
+    "duration_hours": 4,
+    "url": "https://response.pagerduty.com/",
+    "description": "How to run an effective incident response process, from detection to postmortem."
+  },
+  {
+    "id": "do-034",
+    "title": "Nginx & Reverse Proxies",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "nginx",
+      "networking"
+    ],
+    "prerequisites": [
+      "do-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://nginx.org/en/docs/beginners_guide.html",
+    "description": "Configure Nginx as a web server, reverse proxy, and static file host."
+  },
+  {
+    "id": "do-035",
+    "title": "Load Balancing Concepts",
+    "domain": "devops",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "networking",
+      "load-balancing"
+    ],
+    "prerequisites": [
+      "do-034"
+    ],
+    "duration_hours": 3,
+    "url": "https://aws.amazon.com/what-is/load-balancing/",
+    "description": "Algorithms and architectures for distributing traffic across multiple servers."
+  },
+  {
+    "id": "do-036",
+    "title": "Secrets Management with Vault",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "security",
+      "vault",
+      "secrets"
+    ],
+    "prerequisites": [
+      "do-028"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.hashicorp.com/vault/tutorials/getting-started",
+    "description": "Securely store, rotate, and access secrets and credentials with HashiCorp Vault."
+  },
+  {
+    "id": "do-037",
+    "title": "GitOps with ArgoCD",
+    "domain": "devops",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "gitops",
+      "argocd",
+      "kubernetes"
+    ],
+    "prerequisites": [
+      "do-011",
+      "do-017"
+    ],
+    "duration_hours": 7,
+    "url": "https://argo-cd.readthedocs.io/en/stable/getting_started/",
+    "description": "Declarative, Git-driven continuous delivery for Kubernetes with ArgoCD."
+  },
+  {
+    "id": "cl-001",
+    "title": "Cloud Computing Fundamentals",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "cloud",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://aws.amazon.com/what-is-cloud-computing/",
+    "description": "What cloud computing is, deployment models, and why organizations adopt it."
+  },
+  {
+    "id": "cl-002",
+    "title": "IaaS, PaaS & SaaS Explained",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "cloud",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "cl-001"
+    ],
+    "duration_hours": 2,
+    "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas-paas-saas/",
+    "description": "The three main cloud service models and how to choose between them."
+  },
+  {
+    "id": "cl-003",
+    "title": "AWS Account & IAM Basics",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "iam"
+    ],
+    "prerequisites": [
+      "cl-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://aws.amazon.com/iam/getting-started/",
+    "description": "Set up an AWS account safely and manage users, groups, and permissions with IAM."
+  },
+  {
+    "id": "cl-004",
+    "title": "AWS EC2",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "ec2",
+      "compute"
+    ],
+    "prerequisites": [
+      "cl-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+    "description": "Launch, configure, and manage virtual servers on Amazon EC2."
+  },
+  {
+    "id": "cl-005",
+    "title": "AWS S3",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "s3",
+      "storage"
+    ],
+    "prerequisites": [
+      "cl-003"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+    "description": "Object storage fundamentals: buckets, objects, versioning, and access policies."
+  },
+  {
+    "id": "cl-006",
+    "title": "AWS VPC Networking",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "vpc",
+      "networking"
+    ],
+    "prerequisites": [
+      "cl-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+    "description": "Design isolated networks in AWS with subnets, route tables, and gateways."
+  },
+  {
+    "id": "cl-007",
+    "title": "AWS RDS Databases",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "rds",
+      "databases"
+    ],
+    "prerequisites": [
+      "cl-006"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+    "description": "Managed relational databases on AWS: setup, backups, and scaling."
+  },
+  {
+    "id": "cl-008",
+    "title": "AWS Lambda & Serverless",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "aws",
+      "lambda",
+      "serverless"
+    ],
+    "prerequisites": [
+      "cl-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+    "description": "Run code without managing servers using AWS Lambda functions and triggers."
+  },
+  {
+    "id": "cl-009",
+    "title": "AWS API Gateway",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "api-gateway",
+      "serverless"
+    ],
+    "prerequisites": [
+      "cl-008"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+    "description": "Expose Lambda functions and backend services as managed REST/HTTP APIs."
+  },
+  {
+    "id": "cl-010",
+    "title": "AWS CloudFormation",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "aws",
+      "iac",
+      "cloudformation"
+    ],
+    "prerequisites": [
+      "cl-006"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html",
+    "description": "Model and provision AWS resources declaratively with CloudFormation templates."
+  },
+  {
+    "id": "cl-011",
+    "title": "AWS Certified Cloud Practitioner Prep",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "aws",
+      "certification"
+    ],
+    "prerequisites": [
+      "cl-005",
+      "cl-004"
+    ],
+    "duration_hours": 10,
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "description": "Exam guide and study plan for AWS's entry-level cloud certification."
+  },
+  {
+    "id": "cl-012",
+    "title": "GCP Fundamentals",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "gcp",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "cl-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://cloud.google.com/docs/get-started",
+    "description": "Get oriented in Google Cloud Platform: projects, billing, and the console."
+  },
+  {
+    "id": "cl-013",
+    "title": "GCP Compute Engine",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "gcp",
+      "compute"
+    ],
+    "prerequisites": [
+      "cl-012"
+    ],
+    "duration_hours": 5,
+    "url": "https://cloud.google.com/compute/docs/overview",
+    "description": "Virtual machines on Google Cloud: instances, images, and networking."
+  },
+  {
+    "id": "cl-014",
+    "title": "GCP Cloud Storage",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "gcp",
+      "storage"
+    ],
+    "prerequisites": [
+      "cl-012"
+    ],
+    "duration_hours": 3,
+    "url": "https://cloud.google.com/storage/docs/introduction",
+    "description": "Object storage on GCP: buckets, storage classes, and access control."
+  },
+  {
+    "id": "cl-015",
+    "title": "GCP BigQuery",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "gcp",
+      "bigquery",
+      "data"
+    ],
+    "prerequisites": [
+      "cl-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://cloud.google.com/bigquery/docs/introduction",
+    "description": "Serverless data warehousing and SQL analytics at scale with BigQuery."
+  },
+  {
+    "id": "cl-016",
+    "title": "GCP Cloud Functions",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "gcp",
+      "serverless"
+    ],
+    "prerequisites": [
+      "cl-013"
+    ],
+    "duration_hours": 4,
+    "url": "https://cloud.google.com/functions/docs/concepts/overview",
+    "description": "Event-driven serverless functions on Google Cloud."
+  },
+  {
+    "id": "cl-017",
+    "title": "GCP IAM",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "gcp",
+      "iam",
+      "security"
+    ],
+    "prerequisites": [
+      "cl-012"
+    ],
+    "duration_hours": 4,
+    "url": "https://cloud.google.com/iam/docs/overview",
+    "description": "Manage who has what access to which GCP resources."
+  },
+  {
+    "id": "cl-018",
+    "title": "Azure Fundamentals",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "azure",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "cl-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/",
+    "description": "Core Azure services, pricing, and governance concepts."
+  },
+  {
+    "id": "cl-019",
+    "title": "Azure Virtual Machines",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "azure",
+      "compute"
+    ],
+    "prerequisites": [
+      "cl-018"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/overview",
+    "description": "Provision and manage virtual machines in Azure."
+  },
+  {
+    "id": "cl-020",
+    "title": "Azure Storage",
+    "domain": "cloud",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "azure",
+      "storage"
+    ],
+    "prerequisites": [
+      "cl-018"
+    ],
+    "duration_hours": 3,
+    "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction",
+    "description": "Blob, file, queue, and table storage services in Azure."
+  },
+  {
+    "id": "cl-021",
+    "title": "Azure Functions",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "azure",
+      "serverless"
+    ],
+    "prerequisites": [
+      "cl-019"
+    ],
+    "duration_hours": 4,
+    "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+    "description": "Event-driven serverless compute on Azure."
+  },
+  {
+    "id": "cl-022",
+    "title": "Azure Active Directory (Entra ID)",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "azure",
+      "identity"
+    ],
+    "prerequisites": [
+      "cl-018"
+    ],
+    "duration_hours": 4,
+    "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whatis",
+    "description": "Identity and access management for Azure and Microsoft 365 resources."
+  },
+  {
+    "id": "cl-023",
+    "title": "Azure AZ-900 Certification Prep",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "azure",
+      "certification"
+    ],
+    "prerequisites": [
+      "cl-020",
+      "cl-019"
+    ],
+    "duration_hours": 10,
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+    "description": "Exam objectives and study path for the Azure Fundamentals certification."
+  },
+  {
+    "id": "cl-024",
+    "title": "Serverless Architecture Concepts",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "serverless",
+      "architecture"
+    ],
+    "prerequisites": [
+      "cl-008"
+    ],
+    "duration_hours": 4,
+    "url": "https://aws.amazon.com/serverless/",
+    "description": "Design patterns and trade-offs when building fully serverless systems."
+  },
+  {
+    "id": "cl-025",
+    "title": "Microservices Architecture",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "microservices",
+      "architecture"
+    ],
+    "prerequisites": [
+      "cl-024"
+    ],
+    "duration_hours": 6,
+    "url": "https://microservices.io/",
+    "description": "Patterns for decomposing applications into independently deployable services."
+  },
+  {
+    "id": "cl-026",
+    "title": "Cloud Networking Fundamentals",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "networking",
+      "cloud"
+    ],
+    "prerequisites": [
+      "cl-006"
+    ],
+    "duration_hours": 5,
+    "url": "https://cloud.google.com/learn/what-is-cloud-networking",
+    "description": "Virtual networks, peering, and hybrid connectivity across cloud providers."
+  },
+  {
+    "id": "cl-027",
+    "title": "Cloud Security Fundamentals",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "security",
+      "cloud"
+    ],
+    "prerequisites": [
+      "cl-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.microsoft.com/en-us/training/paths/describe-basic-concepts-security-compliance-identity/",
+    "description": "Shared responsibility model and core security controls in cloud environments."
+  },
+  {
+    "id": "cl-028",
+    "title": "Cost Optimization Strategies",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "finops",
+      "cost"
+    ],
+    "prerequisites": [
+      "cl-004"
+    ],
+    "duration_hours": 3,
+    "url": "https://aws.amazon.com/aws-cost-management/aws-cost-optimization/",
+    "description": "Right-sizing, reserved capacity, and tooling to control cloud spend."
+  },
+  {
+    "id": "cl-029",
+    "title": "Multi-Cloud Strategy",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "multi-cloud",
+      "strategy"
+    ],
+    "prerequisites": [
+      "cl-012",
+      "cl-018"
+    ],
+    "duration_hours": 4,
+    "url": "https://cloud.google.com/learn/what-is-multicloud",
+    "description": "Benefits, risks, and patterns for running workloads across multiple cloud providers."
+  },
+  {
+    "id": "cl-030",
+    "title": "Cloud Databases Overview",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "databases",
+      "cloud"
+    ],
+    "prerequisites": [
+      "cl-007"
+    ],
+    "duration_hours": 4,
+    "url": "https://aws.amazon.com/products/databases/",
+    "description": "Relational, NoSQL, and specialized managed database options in the cloud."
+  },
+  {
+    "id": "cl-031",
+    "title": "CDN & Edge Computing",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "cdn",
+      "edge"
+    ],
+    "prerequisites": [
+      "cl-005"
+    ],
+    "duration_hours": 3,
+    "url": "https://aws.amazon.com/cloudfront/",
+    "description": "Content delivery networks and pushing compute closer to users at the edge."
+  },
+  {
+    "id": "cl-032",
+    "title": "Managed Container Services (ECS/EKS/GKE)",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "containers",
+      "kubernetes",
+      "cloud"
+    ],
+    "prerequisites": [
+      "cl-006"
+    ],
+    "duration_hours": 7,
+    "url": "https://aws.amazon.com/eks/",
+    "description": "Run containers at scale using managed Kubernetes and container orchestration services."
+  },
+  {
+    "id": "cl-033",
+    "title": "Cloud Monitoring & Observability",
+    "domain": "cloud",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "monitoring",
+      "observability"
+    ],
+    "prerequisites": [
+      "cl-013"
+    ],
+    "duration_hours": 4,
+    "url": "https://cloud.google.com/products/operations",
+    "description": "Metrics, logs, and traces for understanding cloud application health."
+  },
+  {
+    "id": "cl-034",
+    "title": "Disaster Recovery & Backup",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "disaster-recovery",
+      "backup"
+    ],
+    "prerequisites": [
+      "cl-030"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html",
+    "description": "RTO/RPO planning and architectures for recovering workloads after failure."
+  },
+  {
+    "id": "cl-035",
+    "title": "Cloud Migration Strategies",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "migration",
+      "strategy"
+    ],
+    "prerequisites": [
+      "cl-029"
+    ],
+    "duration_hours": 5,
+    "url": "https://aws.amazon.com/cloud-migration/",
+    "description": "The 6 R's of migration and how to plan a move to the cloud."
+  },
+  {
+    "id": "cl-036",
+    "title": "AWS Well-Architected Framework",
+    "domain": "cloud",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "architecture",
+      "best-practices"
+    ],
+    "prerequisites": [
+      "cl-028",
+      "cl-027"
+    ],
+    "duration_hours": 6,
+    "url": "https://aws.amazon.com/architecture/well-architected/",
+    "description": "Six pillars for designing reliable, secure, and cost-effective cloud systems."
+  },
+  {
+    "id": "cy-001",
+    "title": "Cybersecurity Fundamentals",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "fundamentals",
+      "security"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://www.sans.org/cyberaces/",
+    "description": "Free introductory tour of operating systems, networking, and system administration for security."
+  },
+  {
+    "id": "cy-002",
+    "title": "CIA Triad & Security Principles",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "fundamentals",
+      "principles"
+    ],
+    "prerequisites": [
+      "cy-001"
+    ],
+    "duration_hours": 2,
+    "url": "https://www.f5.com/labs/learning-center/what-is-the-cia-triad",
+    "description": "Confidentiality, integrity, and availability as the foundation of security thinking."
+  },
+  {
+    "id": "cy-003",
+    "title": "Networking Fundamentals for Security",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "networking",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "cy-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html",
+    "description": "Networking basics every security practitioner needs before going deeper."
+  },
+  {
+    "id": "cy-004",
+    "title": "TCP/IP & Protocols",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "networking",
+      "protocols"
+    ],
+    "prerequisites": [
+      "cy-003"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.cloudflare.com/learning/network-layer/what-is-tcp-ip/",
+    "description": "How TCP/IP moves data across networks, and why protocols matter for security."
+  },
+  {
+    "id": "cy-005",
+    "title": "Linux for Security Professionals",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "linux",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "cy-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://linuxjourney.com/",
+    "description": "Linux command line skills used constantly in security tooling and CTFs."
+  },
+  {
+    "id": "cy-006",
+    "title": "Cryptography Basics",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "cryptography"
+    ],
+    "prerequisites": [
+      "cy-002"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.khanacademy.org/computing/computer-science/cryptography",
+    "description": "Symmetric/asymmetric encryption, hashing, and how cryptography underpins security."
+  },
+  {
+    "id": "cy-007",
+    "title": "Public Key Infrastructure",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "cryptography",
+      "pki"
+    ],
+    "prerequisites": [
+      "cy-006"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.cloudflare.com/learning/ssl/what-is-a-certificate-authority/",
+    "description": "Certificates, certificate authorities, and how trust is established on the web."
+  },
+  {
+    "id": "cy-008",
+    "title": "OWASP Top 10",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "documentation",
+    "tags": [
+      "web-security",
+      "owasp"
+    ],
+    "prerequisites": [
+      "cy-003"
+    ],
+    "duration_hours": 4,
+    "url": "https://owasp.org/www-project-top-ten/",
+    "description": "The ten most critical web application security risks, with real-world examples."
+  },
+  {
+    "id": "cy-009",
+    "title": "Web Application Security Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "web-security"
+    ],
+    "prerequisites": [
+      "cy-008"
+    ],
+    "duration_hours": 8,
+    "url": "https://portswigger.net/web-security",
+    "description": "Free hands-on academy covering common web vulnerabilities with interactive labs."
+  },
+  {
+    "id": "cy-010",
+    "title": "SQL Injection & Prevention",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "web-security",
+      "sql-injection"
+    ],
+    "prerequisites": [
+      "cy-009"
+    ],
+    "duration_hours": 5,
+    "url": "https://portswigger.net/web-security/sql-injection",
+    "description": "How SQL injection works, exploitation techniques, and parameterized-query defenses."
+  },
+  {
+    "id": "cy-011",
+    "title": "XSS & CSRF",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "web-security",
+      "xss",
+      "csrf"
+    ],
+    "prerequisites": [
+      "cy-009"
+    ],
+    "duration_hours": 5,
+    "url": "https://portswigger.net/web-security/cross-site-scripting",
+    "description": "Cross-site scripting and cross-site request forgery: exploitation and mitigation."
+  },
+  {
+    "id": "cy-012",
+    "title": "Burp Suite Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "tools",
+      "burp-suite"
+    ],
+    "prerequisites": [
+      "cy-009"
+    ],
+    "duration_hours": 5,
+    "url": "https://portswigger.net/burp/documentation/desktop/getting-started",
+    "description": "Intercept, repeat, and analyze HTTP traffic with the industry-standard proxy tool."
+  },
+  {
+    "id": "cy-013",
+    "title": "Ethical Hacking Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "ethical-hacking"
+    ],
+    "prerequisites": [
+      "cy-005",
+      "cy-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+    "description": "The mindset, legal boundaries, and methodology behind authorized penetration testing."
+  },
+  {
+    "id": "cy-014",
+    "title": "Penetration Testing Methodology",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "pentesting",
+      "methodology"
+    ],
+    "prerequisites": [
+      "cy-013"
+    ],
+    "duration_hours": 6,
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
+    "description": "A structured, repeatable approach to testing applications for vulnerabilities."
+  },
+  {
+    "id": "cy-015",
+    "title": "Reconnaissance & Footprinting",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "pentesting",
+      "recon",
+      "nmap"
+    ],
+    "prerequisites": [
+      "cy-014"
+    ],
+    "duration_hours": 5,
+    "url": "https://nmap.org/book/man.html",
+    "description": "Passive and active information gathering, and port scanning with Nmap."
+  },
+  {
+    "id": "cy-016",
+    "title": "Vulnerability Scanning",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "pentesting",
+      "vulnerability-scanning"
+    ],
+    "prerequisites": [
+      "cy-015"
+    ],
+    "duration_hours": 4,
+    "url": "https://owasp.org/www-project-vulnerability-management-guide/",
+    "description": "Automated scanning to identify known weaknesses in systems and applications."
+  },
+  {
+    "id": "cy-017",
+    "title": "Metasploit Fundamentals",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "pentesting",
+      "metasploit"
+    ],
+    "prerequisites": [
+      "cy-016"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.metasploit.com/",
+    "description": "Exploit development and delivery using the Metasploit Framework."
+  },
+  {
+    "id": "cy-018",
+    "title": "Network Security Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "network-security"
+    ],
+    "prerequisites": [
+      "cy-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.cisco.com/c/en/us/products/security/what-is-network-security.html",
+    "description": "Defense strategies for protecting network infrastructure from attack."
+  },
+  {
+    "id": "cy-019",
+    "title": "Firewalls & IDS/IPS",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "network-security",
+      "firewalls"
+    ],
+    "prerequisites": [
+      "cy-018"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.cloudflare.com/learning/security/what-is-a-firewall/",
+    "description": "How firewalls, intrusion detection, and intrusion prevention systems filter traffic."
+  },
+  {
+    "id": "cy-020",
+    "title": "Wireshark & Packet Analysis",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "tools",
+      "wireshark",
+      "packet-analysis"
+    ],
+    "prerequisites": [
+      "cy-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.wireshark.org/docs/wsug_html_chunked/",
+    "description": "Capture and analyze network traffic to diagnose and investigate security issues."
+  },
+  {
+    "id": "cy-021",
+    "title": "Social Engineering Fundamentals",
+    "domain": "cybersecurity",
+    "level": "beginner",
+    "type": "article",
+    "tags": [
+      "social-engineering"
+    ],
+    "prerequisites": [
+      "cy-002"
+    ],
+    "duration_hours": 3,
+    "url": "https://www.knowbe4.com/what-is-social-engineering",
+    "description": "Phishing, pretexting, and the human side of security attacks and defense."
+  },
+  {
+    "id": "cy-022",
+    "title": "Malware Analysis Basics",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "malware"
+    ],
+    "prerequisites": [
+      "cy-005"
+    ],
+    "duration_hours": 7,
+    "url": "https://zeltser.com/how-to-start-learning-malware-analysis/",
+    "description": "A starting roadmap for static and dynamic analysis of malicious software."
+  },
+  {
+    "id": "cy-023",
+    "title": "Digital Forensics Fundamentals",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "forensics"
+    ],
+    "prerequisites": [
+      "cy-005"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.eccouncil.org/cybersecurity-exchange/computer-forensics/what-is-digital-forensics/",
+    "description": "Evidence collection, chain of custody, and investigating security incidents."
+  },
+  {
+    "id": "cy-024",
+    "title": "Incident Response Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "incident-response"
+    ],
+    "prerequisites": [
+      "cy-018"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-response",
+    "description": "Preparation, detection, containment, and recovery when a breach occurs."
+  },
+  {
+    "id": "cy-025",
+    "title": "Security Operations Center (SOC) Basics",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "soc",
+      "operations"
+    ],
+    "prerequisites": [
+      "cy-024"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.microsoft.com/en-us/security/business/security-101/what-is-a-security-operations-center-soc",
+    "description": "How a SOC monitors, detects, and responds to threats around the clock."
+  },
+  {
+    "id": "cy-026",
+    "title": "SIEM Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "siem",
+      "monitoring"
+    ],
+    "prerequisites": [
+      "cy-025"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.ibm.com/topics/siem",
+    "description": "Aggregating and correlating security logs to detect threats at scale."
+  },
+  {
+    "id": "cy-027",
+    "title": "Identity and Access Management",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "iam",
+      "identity"
+    ],
+    "prerequisites": [
+      "cy-002"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.okta.com/identity-101/what-is-identity-access-management/",
+    "description": "Authentication, authorization, and managing identities across systems."
+  },
+  {
+    "id": "cy-028",
+    "title": "Security Compliance & Frameworks",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "compliance",
+      "frameworks"
+    ],
+    "prerequisites": [
+      "cy-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.nist.gov/cyberframework",
+    "description": "The NIST Cybersecurity Framework and common compliance standards teams work against."
+  },
+  {
+    "id": "cy-029",
+    "title": "CTF Fundamentals & Practice",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ctf",
+      "practice"
+    ],
+    "prerequisites": [
+      "cy-005",
+      "cy-009"
+    ],
+    "duration_hours": 8,
+    "url": "https://ctf101.org/",
+    "description": "Get started with capture-the-flag competitions across crypto, web, pwn, and forensics categories."
+  },
+  {
+    "id": "cy-030",
+    "title": "Wireless Network Security",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "wireless",
+      "network-security"
+    ],
+    "prerequisites": [
+      "cy-018"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.cisco.com/c/en/us/products/wireless/what-is-wireless-security.html",
+    "description": "Securing Wi-Fi networks against common wireless-specific attacks."
+  },
+  {
+    "id": "cy-031",
+    "title": "Cloud Security Fundamentals",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "cloud-security"
+    ],
+    "prerequisites": [
+      "cy-027"
+    ],
+    "duration_hours": 5,
+    "url": "https://cloudsecurityalliance.org/education/",
+    "description": "Shared responsibility, misconfigurations, and securing cloud-hosted workloads."
+  },
+  {
+    "id": "cy-032",
+    "title": "Application Security Testing",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "documentation",
+    "tags": [
+      "appsec",
+      "testing"
+    ],
+    "prerequisites": [
+      "cy-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://owasp.org/www-project-application-security-verification-standard/",
+    "description": "A standard for verifying the security of application controls, from OWASP ASVS."
+  },
+  {
+    "id": "cy-033",
+    "title": "Secure Coding Practices",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "documentation",
+    "tags": [
+      "secure-coding"
+    ],
+    "prerequisites": [
+      "cy-008"
+    ],
+    "duration_hours": 5,
+    "url": "https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/",
+    "description": "Practical guidelines developers can apply to avoid introducing common vulnerabilities."
+  },
+  {
+    "id": "cy-034",
+    "title": "CompTIA Security+ Prep",
+    "domain": "cybersecurity",
+    "level": "intermediate",
+    "type": "article",
+    "tags": [
+      "certification",
+      "security-plus"
+    ],
+    "prerequisites": [
+      "cy-028",
+      "cy-018"
+    ],
+    "duration_hours": 12,
+    "url": "https://www.comptia.org/certifications/security",
+    "description": "Exam objectives and study plan for the vendor-neutral Security+ certification."
+  },
+  {
+    "id": "cy-035",
+    "title": "Certified Ethical Hacker (CEH) Overview",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "certification",
+      "ceh"
+    ],
+    "prerequisites": [
+      "cy-014",
+      "cy-017"
+    ],
+    "duration_hours": 12,
+    "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+    "description": "What the CEH certification covers and how to prepare for the exam."
+  },
+  {
+    "id": "cy-036",
+    "title": "Bug Bounty Hunting Basics",
+    "domain": "cybersecurity",
+    "level": "advanced",
+    "type": "article",
+    "tags": [
+      "bug-bounty"
+    ],
+    "prerequisites": [
+      "cy-009",
+      "cy-012"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.hackerone.com/blog/bug-bounty-basics",
+    "description": "How to get started finding and responsibly reporting vulnerabilities for rewards."
+  },
+  {
+    "id": "mob-001",
+    "title": "Mobile Development Fundamentals",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "mobile",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 4,
+    "url": "https://developer.android.com/courses",
+    "description": "Overview of native vs cross-platform mobile development, app lifecycles, and choosing a tech stack."
+  },
+  {
+    "id": "mob-002",
+    "title": "Java Basics for Android",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "java",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 10,
+    "url": "https://www.freecodecamp.org/news/learn-java-basics/",
+    "description": "Core Java syntax, OOP concepts, and collections needed before Android development."
+  },
+  {
+    "id": "mob-003",
+    "title": "Kotlin Fundamentals",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "kotlin",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "mob-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://kotlinlang.org/docs/getting-started.html",
+    "description": "Kotlin syntax, null safety, classes, and functions for modern Android development."
+  },
+  {
+    "id": "mob-004",
+    "title": "Android Studio Setup & UI Basics",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "android",
+      "tooling"
+    ],
+    "prerequisites": [
+      "mob-003"
+    ],
+    "duration_hours": 4,
+    "url": "https://developer.android.com/studio/intro",
+    "description": "Install Android Studio, understand project structure, and build your first UI layout."
+  },
+  {
+    "id": "mob-005",
+    "title": "Android Layouts & Views",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "prerequisites": [
+      "mob-004"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.android.com/develop/ui/views/layout/declaring-layout",
+    "description": "Build UIs with ConstraintLayout, LinearLayout, and common Android views."
+  },
+  {
+    "id": "mob-006",
+    "title": "Android Activities & Lifecycle",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "android",
+      "lifecycle"
+    ],
+    "prerequisites": [
+      "mob-005"
+    ],
+    "duration_hours": 5,
+    "url": "https://developer.android.com/guide/components/activities/intro-activities",
+    "description": "Understand Activity lifecycle states and how to manage them correctly."
+  },
+  {
+    "id": "mob-007",
+    "title": "Android Intents & Navigation",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "navigation"
+    ],
+    "prerequisites": [
+      "mob-006"
+    ],
+    "duration_hours": 5,
+    "url": "https://developer.android.com/guide/navigation",
+    "description": "Navigate between screens using Intents and the Jetpack Navigation component."
+  },
+  {
+    "id": "mob-008",
+    "title": "RecyclerView & Lists",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "prerequisites": [
+      "mob-006"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.android.com/develop/ui/views/layout/recyclerview",
+    "description": "Display efficient scrolling lists and grids using RecyclerView and adapters."
+  },
+  {
+    "id": "mob-009",
+    "title": "Jetpack Compose Basics",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "compose"
+    ],
+    "prerequisites": [
+      "mob-006"
+    ],
+    "duration_hours": 8,
+    "url": "https://developer.android.com/jetpack/compose/tutorial",
+    "description": "Build declarative Android UIs with Jetpack Compose."
+  },
+  {
+    "id": "mob-010",
+    "title": "Android Networking with Retrofit",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "networking"
+    ],
+    "prerequisites": [
+      "mob-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://square.github.io/retrofit/",
+    "description": "Consume REST APIs in Android apps using Retrofit and OkHttp."
+  },
+  {
+    "id": "mob-011",
+    "title": "Room Database for Android",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "database"
+    ],
+    "prerequisites": [
+      "mob-010"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.android.com/training/data-storage/room",
+    "description": "Persist structured app data locally with the Room persistence library."
+  },
+  {
+    "id": "mob-012",
+    "title": "Android Architecture Components (MVVM)",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "architecture"
+    ],
+    "prerequisites": [
+      "mob-011"
+    ],
+    "duration_hours": 7,
+    "url": "https://developer.android.com/topic/architecture",
+    "description": "Structure Android apps using ViewModel, LiveData/StateFlow, and repositories."
+  },
+  {
+    "id": "mob-013",
+    "title": "Kotlin Coroutines",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "kotlin",
+      "async"
+    ],
+    "prerequisites": [
+      "mob-012"
+    ],
+    "duration_hours": 6,
+    "url": "https://kotlinlang.org/docs/coroutines-guide.html",
+    "description": "Handle asynchronous and background work in Android using Kotlin coroutines."
+  },
+  {
+    "id": "mob-014",
+    "title": "Publishing to Google Play Store",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "android",
+      "deployment"
+    ],
+    "prerequisites": [
+      "mob-013"
+    ],
+    "duration_hours": 3,
+    "url": "https://developer.android.com/studio/publish",
+    "description": "Prepare, sign, and publish an Android app to the Google Play Store."
+  },
+  {
+    "id": "mob-015",
+    "title": "Swift Fundamentals",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "swift",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://www.swift.org/getting-started/",
+    "description": "Core Swift syntax, optionals, structs, and functions for iOS development."
+  },
+  {
+    "id": "mob-016",
+    "title": "iOS Development with SwiftUI",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "ios",
+      "swiftui"
+    ],
+    "prerequisites": [
+      "mob-015"
+    ],
+    "duration_hours": 8,
+    "url": "https://developer.apple.com/tutorials/swiftui",
+    "description": "Build declarative iOS interfaces with SwiftUI views and modifiers."
+  },
+  {
+    "id": "mob-017",
+    "title": "UIKit Basics",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "uikit"
+    ],
+    "prerequisites": [
+      "mob-015"
+    ],
+    "duration_hours": 7,
+    "url": "https://developer.apple.com/documentation/uikit",
+    "description": "Build iOS interfaces imperatively using UIKit view controllers and views."
+  },
+  {
+    "id": "mob-018",
+    "title": "iOS Navigation & View Controllers",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "navigation"
+    ],
+    "prerequisites": [
+      "mob-017"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.apple.com/tutorials/app-dev-training",
+    "description": "Manage screen flow with navigation controllers, tab bars, and segues."
+  },
+  {
+    "id": "mob-019",
+    "title": "Core Data for iOS",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "database"
+    ],
+    "prerequisites": [
+      "mob-016"
+    ],
+    "duration_hours": 7,
+    "url": "https://developer.apple.com/documentation/coredata",
+    "description": "Persist and query structured data locally in iOS apps using Core Data."
+  },
+  {
+    "id": "mob-020",
+    "title": "iOS Networking with URLSession",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "networking"
+    ],
+    "prerequisites": [
+      "mob-016"
+    ],
+    "duration_hours": 5,
+    "url": "https://developer.apple.com/documentation/foundation/urlsession",
+    "description": "Fetch and send data over the network in iOS apps using URLSession."
+  },
+  {
+    "id": "mob-021",
+    "title": "iOS App Architecture (MVVM)",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "architecture"
+    ],
+    "prerequisites": [
+      "mob-020"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.kodeco.com/34473662-mvvm-with-combine-tutorial-for-ios",
+    "description": "Structure iOS apps using the MVVM pattern with Combine or async/await."
+  },
+  {
+    "id": "mob-022",
+    "title": "Publishing to the App Store",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ios",
+      "deployment"
+    ],
+    "prerequisites": [
+      "mob-021"
+    ],
+    "duration_hours": 3,
+    "url": "https://developer.apple.com/app-store/submissions/",
+    "description": "Prepare, sign, and submit an iOS app for App Store review."
+  },
+  {
+    "id": "mob-023",
+    "title": "React Native Fundamentals",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "react-native",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://reactnative.dev/docs/getting-started",
+    "description": "Build cross-platform mobile apps using React Native and JavaScript."
+  },
+  {
+    "id": "mob-024",
+    "title": "React Native Navigation",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react-native",
+      "navigation"
+    ],
+    "prerequisites": [
+      "mob-023"
+    ],
+    "duration_hours": 5,
+    "url": "https://reactnavigation.org/docs/getting-started",
+    "description": "Implement stack, tab, and drawer navigation in React Native apps."
+  },
+  {
+    "id": "mob-025",
+    "title": "React Native State Management with Redux",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react-native",
+      "redux"
+    ],
+    "prerequisites": [
+      "mob-024"
+    ],
+    "duration_hours": 6,
+    "url": "https://redux.js.org/introduction/getting-started",
+    "description": "Manage global application state in React Native using Redux."
+  },
+  {
+    "id": "mob-026",
+    "title": "React Native Native Modules",
+    "domain": "mobile_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "react-native",
+      "native"
+    ],
+    "prerequisites": [
+      "mob-024"
+    ],
+    "duration_hours": 6,
+    "url": "https://reactnative.dev/docs/native-modules-intro",
+    "description": "Bridge native iOS/Android code into a React Native application."
+  },
+  {
+    "id": "mob-027",
+    "title": "Expo Framework for React Native",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "react-native",
+      "expo"
+    ],
+    "prerequisites": [
+      "mob-023"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.expo.dev/",
+    "description": "Speed up React Native development and deployment using the Expo toolchain."
+  },
+  {
+    "id": "mob-028",
+    "title": "Flutter Fundamentals",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "flutter",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://docs.flutter.dev/get-started/codelab",
+    "description": "Build your first cross-platform app with Flutter's widget-based framework."
+  },
+  {
+    "id": "mob-029",
+    "title": "Dart Programming Language",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "dart",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "mob-028"
+    ],
+    "duration_hours": 6,
+    "url": "https://dart.dev/guides",
+    "description": "Learn Dart syntax, types, and asynchronous programming used by Flutter."
+  },
+  {
+    "id": "mob-030",
+    "title": "Flutter Widgets & Layouts",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "flutter",
+      "ui"
+    ],
+    "prerequisites": [
+      "mob-029"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.flutter.dev/ui/widgets-intro",
+    "description": "Compose complex UIs from Flutter's stateless and stateful widgets."
+  },
+  {
+    "id": "mob-031",
+    "title": "Flutter State Management",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "flutter",
+      "state"
+    ],
+    "prerequisites": [
+      "mob-030"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/intro",
+    "description": "Manage app state in Flutter using Provider, Riverpod, or Bloc."
+  },
+  {
+    "id": "mob-032",
+    "title": "Flutter Navigation & Routing",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "flutter",
+      "navigation"
+    ],
+    "prerequisites": [
+      "mob-030"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.flutter.dev/ui/navigation",
+    "description": "Navigate between screens and pass data using Flutter's Navigator and routing."
+  },
+  {
+    "id": "mob-033",
+    "title": "Flutter Firebase Integration",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "flutter",
+      "firebase"
+    ],
+    "prerequisites": [
+      "mob-031"
+    ],
+    "duration_hours": 6,
+    "url": "https://firebase.google.com/docs/flutter/setup",
+    "description": "Integrate Firebase Auth, Firestore, and Storage into a Flutter app."
+  },
+  {
+    "id": "mob-034",
+    "title": "Mobile App Testing",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "mobile",
+      "testing"
+    ],
+    "prerequisites": [
+      "mob-009"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.android.com/training/testing",
+    "description": "Write unit, integration, and UI tests for mobile applications."
+  },
+  {
+    "id": "mob-035",
+    "title": "Mobile UI/UX Design Principles",
+    "domain": "mobile_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "mobile",
+      "design"
+    ],
+    "prerequisites": [
+      "mob-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://m3.material.io/",
+    "description": "Apply mobile-first design principles using Material Design and Human Interface Guidelines."
+  },
+  {
+    "id": "mob-036",
+    "title": "Push Notifications with Firebase Cloud Messaging",
+    "domain": "mobile_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "mobile",
+      "notifications"
+    ],
+    "prerequisites": [
+      "mob-033"
+    ],
+    "duration_hours": 4,
+    "url": "https://firebase.google.com/docs/cloud-messaging",
+    "description": "Send and handle push notifications across Android and iOS with FCM."
+  },
+  {
+    "id": "mob-037",
+    "title": "Mobile App Performance Optimization",
+    "domain": "mobile_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "mobile",
+      "performance"
+    ],
+    "prerequisites": [
+      "mob-034"
+    ],
+    "duration_hours": 6,
+    "url": "https://developer.android.com/topic/performance",
+    "description": "Profile and optimize mobile apps for startup time, memory, and battery usage."
+  },
+  {
+    "id": "iot-001",
+    "title": "Introduction to Embedded Systems",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "embedded",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 4,
+    "url": "https://www.arduino.cc/en/Guide/Introduction",
+    "description": "Overview of microcontrollers, embedded architectures, and where IoT fits in."
+  },
+  {
+    "id": "iot-002",
+    "title": "C Programming Fundamentals",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "c",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 10,
+    "url": "https://www.learn-c.org/",
+    "description": "Core C syntax, pointers, and memory management used throughout embedded programming."
+  },
+  {
+    "id": "iot-003",
+    "title": "C++ for Embedded Systems",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "cpp",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "iot-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.learncpp.com/",
+    "description": "C++ concepts commonly used in resource-constrained embedded firmware."
+  },
+  {
+    "id": "iot-004",
+    "title": "Electronics Basics",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "electronics",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://www.allaboutcircuits.com/textbook/",
+    "description": "Circuits, resistors, voltage, and current fundamentals for hardware projects."
+  },
+  {
+    "id": "iot-005",
+    "title": "Digital Electronics & Logic Gates",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "electronics",
+      "digital-logic"
+    ],
+    "prerequisites": [
+      "iot-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.sparkfun.com/tutorials/digital-logic",
+    "description": "Boolean logic, gates, and digital circuit fundamentals."
+  },
+  {
+    "id": "iot-006",
+    "title": "Arduino Fundamentals",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "arduino",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "iot-002"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.arduino.cc/learn/",
+    "description": "Set up the Arduino IDE and understand board architecture and pin layouts."
+  },
+  {
+    "id": "iot-007",
+    "title": "Arduino Programming (Sketches)",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "arduino",
+      "programming"
+    ],
+    "prerequisites": [
+      "iot-006"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.arduino.cc/learn/programming/sketch-anatomy",
+    "description": "Write, upload, and debug Arduino sketches controlling digital and analog pins."
+  },
+  {
+    "id": "iot-008",
+    "title": "Arduino Sensors & Actuators",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "arduino",
+      "sensors"
+    ],
+    "prerequisites": [
+      "iot-007"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.arduino.cc/built-in-examples/",
+    "description": "Interface Arduino with sensors, motors, and actuators for real-world input/output."
+  },
+  {
+    "id": "iot-009",
+    "title": "Raspberry Pi Fundamentals",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "raspberry-pi",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://projects.raspberrypi.org/en/pathways/rpi-introduction",
+    "description": "Set up a Raspberry Pi and navigate its Linux-based operating system."
+  },
+  {
+    "id": "iot-010",
+    "title": "Raspberry Pi GPIO Programming",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "raspberry-pi",
+      "gpio"
+    ],
+    "prerequisites": [
+      "iot-009"
+    ],
+    "duration_hours": 6,
+    "url": "https://projects.raspberrypi.org/en/pathways/physical-computing",
+    "description": "Control LEDs, buttons, and sensors using Raspberry Pi GPIO pins."
+  },
+  {
+    "id": "iot-011",
+    "title": "Linux Fundamentals for Embedded Devices",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "linux",
+      "embedded"
+    ],
+    "prerequisites": [
+      "iot-009"
+    ],
+    "duration_hours": 7,
+    "url": "https://learn.sparkfun.com/tutorials/tags/linux",
+    "description": "Command-line and filesystem fundamentals for embedded Linux devices."
+  },
+  {
+    "id": "iot-012",
+    "title": "Microcontroller Fundamentals (AVR/ARM)",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "microcontrollers"
+    ],
+    "prerequisites": [
+      "iot-005"
+    ],
+    "duration_hours": 7,
+    "url": "https://learn.sparkfun.com/tutorials/tags/microcontrollers",
+    "description": "Compare AVR and ARM microcontroller families, registers, and peripherals."
+  },
+  {
+    "id": "iot-013",
+    "title": "ESP32/ESP8266 Programming",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "esp32",
+      "wifi"
+    ],
+    "prerequisites": [
+      "iot-007"
+    ],
+    "duration_hours": 7,
+    "url": "https://randomnerdtutorials.com/getting-started-with-esp32/",
+    "description": "Program ESP32/ESP8266 boards for Wi-Fi-enabled IoT projects."
+  },
+  {
+    "id": "iot-014",
+    "title": "MQTT Protocol for IoT",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "mqtt",
+      "protocols"
+    ],
+    "prerequisites": [
+      "iot-013"
+    ],
+    "duration_hours": 4,
+    "url": "https://mqtt.org/getting-started/",
+    "description": "Understand the publish/subscribe MQTT protocol used across IoT devices."
+  },
+  {
+    "id": "iot-015",
+    "title": "IoT Communication Protocols",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "protocols",
+      "networking"
+    ],
+    "prerequisites": [
+      "iot-014"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.hivemq.com/mqtt-essentials/",
+    "description": "Compare HTTP, CoAP, and MQTT for constrained IoT device communication."
+  },
+  {
+    "id": "iot-016",
+    "title": "Wi-Fi & Bluetooth for IoT Devices",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "wireless",
+      "bluetooth"
+    ],
+    "prerequisites": [
+      "iot-013"
+    ],
+    "duration_hours": 5,
+    "url": "https://randomnerdtutorials.com/esp32-bluetooth-classic-arduino-ide/",
+    "description": "Connect IoT devices over Wi-Fi and Bluetooth Low Energy."
+  },
+  {
+    "id": "iot-017",
+    "title": "Sensors & Data Acquisition",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "sensors",
+      "data"
+    ],
+    "prerequisites": [
+      "iot-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.sparkfun.com/tutorials/tags/sensors",
+    "description": "Read and calibrate temperature, motion, and environmental sensors."
+  },
+  {
+    "id": "iot-018",
+    "title": "PWM & Motor Control",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "motors",
+      "pwm"
+    ],
+    "prerequisites": [
+      "iot-008"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.sparkfun.com/tutorials/pulse-width-modulation",
+    "description": "Control motor speed and LED brightness using pulse-width modulation."
+  },
+  {
+    "id": "iot-019",
+    "title": "Real-Time Operating Systems (FreeRTOS)",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "rtos",
+      "freertos"
+    ],
+    "prerequisites": [
+      "iot-012"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.freertos.org/Documentation/RTOS_book.html",
+    "description": "Schedule tasks and manage concurrency on microcontrollers with FreeRTOS."
+  },
+  {
+    "id": "iot-020",
+    "title": "Embedded Linux with Yocto/Buildroot",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "embedded-linux",
+      "yocto"
+    ],
+    "prerequisites": [
+      "iot-011"
+    ],
+    "duration_hours": 9,
+    "url": "https://docs.yoctoproject.org/",
+    "description": "Build custom embedded Linux distributions using Yocto and Buildroot."
+  },
+  {
+    "id": "iot-021",
+    "title": "Raspberry Pi Pico & MicroPython",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "micropython",
+      "pico"
+    ],
+    "prerequisites": [
+      "iot-010"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.raspberrypi.com/documentation/microcontrollers/micropython.html",
+    "description": "Program the Raspberry Pi Pico microcontroller using MicroPython."
+  },
+  {
+    "id": "iot-022",
+    "title": "IoT Cloud Platforms: AWS IoT Core",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "aws",
+      "iot-cloud"
+    ],
+    "prerequisites": [
+      "iot-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html",
+    "description": "Connect, manage, and stream data from IoT devices using AWS IoT Core."
+  },
+  {
+    "id": "iot-023",
+    "title": "IoT with Azure IoT Hub",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "azure",
+      "iot-cloud"
+    ],
+    "prerequisites": [
+      "iot-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.microsoft.com/en-us/azure/iot-hub/",
+    "description": "Provision devices and ingest telemetry using Azure IoT Hub."
+  },
+  {
+    "id": "iot-024",
+    "title": "Home Automation Projects",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "home-automation"
+    ],
+    "prerequisites": [
+      "iot-013"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.home-assistant.io/getting-started/",
+    "description": "Build a smart home automation hub using Home Assistant."
+  },
+  {
+    "id": "iot-025",
+    "title": "IoT Security Fundamentals",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "security",
+      "iot"
+    ],
+    "prerequisites": [
+      "iot-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://owasp.org/www-project-internet-of-things/",
+    "description": "Identify and mitigate common vulnerabilities in IoT device deployments."
+  },
+  {
+    "id": "iot-026",
+    "title": "PCB Design Basics",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "pcb",
+      "hardware"
+    ],
+    "prerequisites": [
+      "iot-004"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.easyeda.com/en/Beginner/Learn-EasyEDA-in-10-minutes/",
+    "description": "Design a simple printed circuit board schematic and layout."
+  },
+  {
+    "id": "iot-027",
+    "title": "Soldering & Hardware Prototyping",
+    "domain": "iot_embedded",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "hardware",
+      "soldering"
+    ],
+    "prerequisites": [
+      "iot-004"
+    ],
+    "duration_hours": 3,
+    "url": "https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering",
+    "description": "Practical soldering techniques for prototyping electronics projects."
+  },
+  {
+    "id": "iot-028",
+    "title": "I2C and SPI Communication Protocols",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "i2c",
+      "spi"
+    ],
+    "prerequisites": [
+      "iot-012"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.sparkfun.com/tutorials/i2c",
+    "description": "Communicate between microcontrollers and peripherals using I2C and SPI buses."
+  },
+  {
+    "id": "iot-029",
+    "title": "Embedded Debugging & Testing",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "debugging",
+      "testing"
+    ],
+    "prerequisites": [
+      "iot-012"
+    ],
+    "duration_hours": 6,
+    "url": "https://interrupt.memfault.com/blog/tag/best-practices",
+    "description": "Debugging techniques, unit testing, and tooling for embedded firmware."
+  },
+  {
+    "id": "iot-030",
+    "title": "Introduction to ROS (Robot Operating System)",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "robotics",
+      "ros"
+    ],
+    "prerequisites": [
+      "iot-011"
+    ],
+    "duration_hours": 8,
+    "url": "https://wiki.ros.org/ROS/Tutorials",
+    "description": "Build robotics applications using the Robot Operating System framework."
+  },
+  {
+    "id": "iot-031",
+    "title": "Robotics Fundamentals",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "robotics"
+    ],
+    "prerequisites": [
+      "iot-018"
+    ],
+    "duration_hours": 7,
+    "url": "https://roboticsbackend.com/category/robotics-fundamentals/",
+    "description": "Kinematics, actuators, and control loops for building simple robots."
+  },
+  {
+    "id": "iot-032",
+    "title": "Edge Computing & TinyML",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "tinyml",
+      "edge-ai"
+    ],
+    "prerequisites": [
+      "iot-013"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.tensorflow.org/lite/microcontrollers",
+    "description": "Run lightweight machine learning models directly on microcontrollers."
+  },
+  {
+    "id": "iot-033",
+    "title": "Power Management for Embedded Devices",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "power",
+      "embedded"
+    ],
+    "prerequisites": [
+      "iot-012"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.sparkfun.com/tutorials/tags/power",
+    "description": "Design low-power embedded systems and manage battery-powered devices."
+  },
+  {
+    "id": "iot-034",
+    "title": "Wearable Tech & Embedded Design",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "wearables",
+      "hardware"
+    ],
+    "prerequisites": [
+      "iot-027"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.adafruit.com/",
+    "description": "Design compact, low-power wearable electronics using Adafruit hardware."
+  },
+  {
+    "id": "iot-035",
+    "title": "IoT Data Visualization & Dashboards",
+    "domain": "iot_embedded",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "dashboards",
+      "data"
+    ],
+    "prerequisites": [
+      "iot-022"
+    ],
+    "duration_hours": 5,
+    "url": "https://thingspeak.mathworks.com/",
+    "description": "Visualize and analyze streaming IoT sensor data with ThingSpeak dashboards."
+  },
+  {
+    "id": "iot-036",
+    "title": "Capstone: Build a Smart IoT Device",
+    "domain": "iot_embedded",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "capstone",
+      "iot"
+    ],
+    "prerequisites": [
+      "iot-025",
+      "iot-032"
+    ],
+    "duration_hours": 10,
+    "url": "https://randomnerdtutorials.com/projects/",
+    "description": "Design, build, and deploy an end-to-end connected IoT device project."
+  },
+  {
+    "id": "game-001",
+    "title": "Game Design Fundamentals",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "game-design",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 6,
+    "url": "https://learn.unity.com/course/foundational-game-design",
+    "description": "Core game design principles: mechanics, dynamics, aesthetics, and player experience."
+  },
+  {
+    "id": "game-002",
+    "title": "C# Programming Basics",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "csharp",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 10,
+    "url": "https://www.freecodecamp.org/news/learn-c-sharp/",
+    "description": "C# syntax, variables, control flow, and OOP fundamentals used by Unity."
+  },
+  {
+    "id": "game-003",
+    "title": "Object-Oriented Programming in C#",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "csharp",
+      "oop"
+    ],
+    "prerequisites": [
+      "game-002"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop",
+    "description": "Classes, inheritance, and polymorphism applied to game object modeling."
+  },
+  {
+    "id": "game-004",
+    "title": "Unity Editor Fundamentals",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "unity",
+      "tooling"
+    ],
+    "prerequisites": [
+      "game-002"
+    ],
+    "duration_hours": 5,
+    "url": "https://learn.unity.com/pathway/junior-programmer",
+    "description": "Navigate the Unity Editor, scenes, GameObjects, and the component system."
+  },
+  {
+    "id": "game-005",
+    "title": "Unity Scripting Basics",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "unity",
+      "scripting"
+    ],
+    "prerequisites": [
+      "game-004"
+    ],
+    "duration_hours": 7,
+    "url": "https://learn.unity.com/course/create-with-code",
+    "description": "Write C# scripts to control GameObjects, input, and game logic in Unity."
+  },
+  {
+    "id": "game-006",
+    "title": "2D Game Development in Unity",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "2d"
+    ],
+    "prerequisites": [
+      "game-005"
+    ],
+    "duration_hours": 8,
+    "url": "https://learn.unity.com/project/ruby-s-adventure-2d-beginner",
+    "description": "Build a complete 2D game with sprites, tilemaps, and physics in Unity."
+  },
+  {
+    "id": "game-007",
+    "title": "Physics & Collisions in Unity",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "physics"
+    ],
+    "prerequisites": [
+      "game-005"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.unity3d.com/Manual/PhysicsSection.html",
+    "description": "Use rigidbodies, colliders, and triggers to simulate physics in Unity."
+  },
+  {
+    "id": "game-008",
+    "title": "Unity Animation System",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "animation"
+    ],
+    "prerequisites": [
+      "game-005"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.unity3d.com/Manual/AnimationSection.html",
+    "description": "Animate characters and objects using Unity's Animator and Timeline."
+  },
+  {
+    "id": "game-009",
+    "title": "Unity UI System",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "ui"
+    ],
+    "prerequisites": [
+      "game-005"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.unity3d.com/Manual/UIElements.html",
+    "description": "Build HUDs, menus, and in-game UI using Unity's UI Toolkit and Canvas system."
+  },
+  {
+    "id": "game-010",
+    "title": "3D Game Development in Unity",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "3d"
+    ],
+    "prerequisites": [
+      "game-007"
+    ],
+    "duration_hours": 9,
+    "url": "https://learn.unity.com/course/3d-game-development-with-unity",
+    "description": "Build a 3D game with cameras, lighting, and level design in Unity."
+  },
+  {
+    "id": "game-011",
+    "title": "Unity Audio & Sound Design",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "audio"
+    ],
+    "prerequisites": [
+      "game-005"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.unity3d.com/Manual/Audio.html",
+    "description": "Integrate sound effects, music, and mixing into a Unity project."
+  },
+  {
+    "id": "game-012",
+    "title": "Unity Shaders & Materials Basics",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "unity",
+      "shaders"
+    ],
+    "prerequisites": [
+      "game-010"
+    ],
+    "duration_hours": 6,
+    "url": "https://docs.unity3d.com/Manual/Shaders.html",
+    "description": "Introduction to materials, shader graphs, and visual effects in Unity."
+  },
+  {
+    "id": "game-013",
+    "title": "Game AI & NPC Behavior",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "ai"
+    ],
+    "prerequisites": [
+      "game-006"
+    ],
+    "duration_hours": 7,
+    "url": "https://learn.unity.com/tutorial/artificial-intelligence-for-beginners",
+    "description": "Implement pathfinding, state machines, and NPC decision-making."
+  },
+  {
+    "id": "game-014",
+    "title": "Multiplayer Networking in Unity",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "unity",
+      "multiplayer"
+    ],
+    "prerequisites": [
+      "game-010"
+    ],
+    "duration_hours": 8,
+    "url": "https://docs-multiplayer.unity3d.com/netcode/current/about/",
+    "description": "Build networked multiplayer gameplay using Unity Netcode for GameObjects."
+  },
+  {
+    "id": "game-015",
+    "title": "Unity Performance Optimization",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "unity",
+      "performance"
+    ],
+    "prerequisites": [
+      "game-010"
+    ],
+    "duration_hours": 6,
+    "url": "https://learn.unity.com/tutorial/optimization-for-mobile",
+    "description": "Profile and optimize frame rate, memory, and build size in Unity games."
+  },
+  {
+    "id": "game-016",
+    "title": "Publishing Unity Games",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unity",
+      "deployment"
+    ],
+    "prerequisites": [
+      "game-006"
+    ],
+    "duration_hours": 4,
+    "url": "https://docs.unity3d.com/Manual/PublishingBuilds.html",
+    "description": "Build and publish a Unity game to PC, mobile, or web platforms."
+  },
+  {
+    "id": "game-017",
+    "title": "Introduction to Unreal Engine",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "game-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-hub",
+    "description": "Overview of the Unreal Editor, project structure, and core workflows."
+  },
+  {
+    "id": "game-018",
+    "title": "Unreal Engine Blueprints Visual Scripting",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "blueprints"
+    ],
+    "prerequisites": [
+      "game-017"
+    ],
+    "duration_hours": 7,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine",
+    "description": "Implement gameplay logic visually using Unreal's Blueprint system."
+  },
+  {
+    "id": "game-019",
+    "title": "C++ for Unreal Engine",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "cpp"
+    ],
+    "prerequisites": [
+      "game-018"
+    ],
+    "duration_hours": 9,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-with-cpp-in-unreal-engine",
+    "description": "Write gameplay code in C++ using Unreal Engine's framework and APIs."
+  },
+  {
+    "id": "game-020",
+    "title": "Unreal Engine Level Design",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "level-design"
+    ],
+    "prerequisites": [
+      "game-018"
+    ],
+    "duration_hours": 6,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/level-editor-in-unreal-engine",
+    "description": "Build and light game levels using the Unreal level editor tools."
+  },
+  {
+    "id": "game-021",
+    "title": "Unreal Engine Materials & Shaders",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "shaders"
+    ],
+    "prerequisites": [
+      "game-020"
+    ],
+    "duration_hours": 7,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-materials",
+    "description": "Create materials and shader effects using Unreal's node-based editor."
+  },
+  {
+    "id": "game-022",
+    "title": "Unreal Engine Animation",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "animation"
+    ],
+    "prerequisites": [
+      "game-020"
+    ],
+    "duration_hours": 6,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-in-unreal-engine",
+    "description": "Animate characters using Unreal's animation blueprints and state machines."
+  },
+  {
+    "id": "game-023",
+    "title": "Unreal Engine Physics",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "physics"
+    ],
+    "prerequisites": [
+      "game-020"
+    ],
+    "duration_hours": 5,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine",
+    "description": "Simulate collisions, ragdolls, and physical forces in Unreal Engine."
+  },
+  {
+    "id": "game-024",
+    "title": "Multiplayer in Unreal Engine",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "unreal",
+      "multiplayer"
+    ],
+    "prerequisites": [
+      "game-019"
+    ],
+    "duration_hours": 8,
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/multiplayer-programming-quick-start-for-unreal-engine",
+    "description": "Build replicated multiplayer gameplay using Unreal's networking model."
+  },
+  {
+    "id": "game-025",
+    "title": "Godot Engine Fundamentals",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "godot",
+      "fundamentals"
+    ],
+    "prerequisites": [
+      "game-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.godotengine.org/en/stable/getting_started/introduction/index.html",
+    "description": "Introduction to the open-source Godot game engine and its editor."
+  },
+  {
+    "id": "game-026",
+    "title": "GDScript Programming",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "godot",
+      "gdscript"
+    ],
+    "prerequisites": [
+      "game-025"
+    ],
+    "duration_hours": 5,
+    "url": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html",
+    "description": "Learn Godot's Python-like scripting language, GDScript."
+  },
+  {
+    "id": "game-027",
+    "title": "2D Games in Godot",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "godot",
+      "2d"
+    ],
+    "prerequisites": [
+      "game-026"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.godotengine.org/en/stable/tutorials/2d/index.html",
+    "description": "Build a complete 2D game using Godot's node and scene system."
+  },
+  {
+    "id": "game-028",
+    "title": "3D Games in Godot",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "godot",
+      "3d"
+    ],
+    "prerequisites": [
+      "game-026"
+    ],
+    "duration_hours": 7,
+    "url": "https://docs.godotengine.org/en/stable/tutorials/3d/index.html",
+    "description": "Build 3D scenes, cameras, and lighting in the Godot engine."
+  },
+  {
+    "id": "game-029",
+    "title": "Game Design Patterns",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "design-patterns",
+      "architecture"
+    ],
+    "prerequisites": [
+      "game-006"
+    ],
+    "duration_hours": 6,
+    "url": "https://gameprogrammingpatterns.com/contents.html",
+    "description": "Common software design patterns applied specifically to game architecture."
+  },
+  {
+    "id": "game-030",
+    "title": "Level Design Principles",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "level-design"
+    ],
+    "prerequisites": [
+      "game-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.gdquest.com/",
+    "description": "Principles of pacing, flow, and player guidance in level design."
+  },
+  {
+    "id": "game-031",
+    "title": "Game Math & Physics",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "math",
+      "physics"
+    ],
+    "prerequisites": [
+      "game-002"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.khanacademy.org/math/linear-algebra",
+    "description": "Vectors, matrices, and trigonometry fundamentals used in game engines."
+  },
+  {
+    "id": "game-032",
+    "title": "Procedural Generation Techniques",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "procedural-generation"
+    ],
+    "prerequisites": [
+      "game-030"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.redblobgames.com/",
+    "description": "Generate maps, terrain, and content procedurally using noise and algorithms."
+  },
+  {
+    "id": "game-033",
+    "title": "Game Monetization & Publishing Strategies",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "monetization",
+      "business"
+    ],
+    "prerequisites": [
+      "game-015"
+    ],
+    "duration_hours": 4,
+    "url": "https://unity.com/solutions/mobile-game-monetization",
+    "description": "Monetization models, storefronts, and go-to-market strategy for games."
+  },
+  {
+    "id": "game-034",
+    "title": "Playtesting & Game Balance",
+    "domain": "game_development",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "playtesting"
+    ],
+    "prerequisites": [
+      "game-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.gamedeveloper.com/design",
+    "description": "Techniques for playtesting, gathering feedback, and balancing game systems."
+  },
+  {
+    "id": "game-035",
+    "title": "Pixel Art & Game Asset Creation",
+    "domain": "game_development",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "art",
+      "assets"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://lospec.com/pixel-art-tutorials",
+    "description": "Create sprites and pixel art assets for 2D games using free tools."
+  },
+  {
+    "id": "game-036",
+    "title": "Capstone: Build and Ship a Complete Game",
+    "domain": "game_development",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "capstone"
+    ],
+    "prerequisites": [
+      "game-016",
+      "game-031"
+    ],
+    "duration_hours": 12,
+    "url": "https://learn.unity.com/course/create-with-code-2",
+    "description": "Design, build, polish, and publish a complete playable game."
+  },
+  {
+    "id": "int-001",
+    "title": "Big O Notation & Complexity Analysis",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "complexity",
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 4,
+    "url": "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+    "description": "Analyze time and space complexity to reason about algorithm efficiency."
+  },
+  {
+    "id": "int-002",
+    "title": "Arrays & Strings Patterns",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "arrays",
+      "strings"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://leetcode.com/explore/learn/card/array-and-string/",
+    "description": "Common interview patterns for array and string manipulation problems."
+  },
+  {
+    "id": "int-003",
+    "title": "Two Pointers Technique",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "two-pointers"
+    ],
+    "prerequisites": [
+      "int-002"
+    ],
+    "duration_hours": 4,
+    "url": "https://leetcode.com/tag/two-pointers/",
+    "description": "Solve array and string problems efficiently using the two-pointer technique."
+  },
+  {
+    "id": "int-004",
+    "title": "Sliding Window Pattern",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "sliding-window"
+    ],
+    "prerequisites": [
+      "int-002"
+    ],
+    "duration_hours": 4,
+    "url": "https://leetcode.com/tag/sliding-window/",
+    "description": "Optimize substring and subarray problems using the sliding window pattern."
+  },
+  {
+    "id": "int-005",
+    "title": "Hashing & Hash Maps",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "hashing"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/explore/learn/card/hash-table/",
+    "description": "Use hash maps and sets to solve lookup and frequency-counting problems."
+  },
+  {
+    "id": "int-006",
+    "title": "Linked Lists",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "linked-lists"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://leetcode.com/explore/learn/card/linked-list/",
+    "description": "Traverse, reverse, and manipulate singly and doubly linked lists."
+  },
+  {
+    "id": "int-007",
+    "title": "Stacks & Queues",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "stacks",
+      "queues"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/explore/learn/card/queue-stack/",
+    "description": "Solve problems using stack and queue data structures and their variants."
+  },
+  {
+    "id": "int-008",
+    "title": "Recursion Fundamentals",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "recursion"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.freecodecamp.org/news/recursion-in-javascript/",
+    "description": "Understand recursive thinking, base cases, and call stack behavior."
+  },
+  {
+    "id": "int-009",
+    "title": "Binary Search",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "binary-search"
+    ],
+    "prerequisites": [
+      "int-002"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/explore/learn/card/binary-search/",
+    "description": "Master binary search and its variants on sorted arrays and search spaces."
+  },
+  {
+    "id": "int-010",
+    "title": "Trees & Binary Trees",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "trees"
+    ],
+    "prerequisites": [
+      "int-006"
+    ],
+    "duration_hours": 7,
+    "url": "https://leetcode.com/explore/learn/card/data-structure-tree/",
+    "description": "Traverse and manipulate binary trees using DFS and BFS approaches."
+  },
+  {
+    "id": "int-011",
+    "title": "Binary Search Trees",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "bst"
+    ],
+    "prerequisites": [
+      "int-010"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/",
+    "description": "Insert, delete, and search efficiently using binary search tree properties."
+  },
+  {
+    "id": "int-012",
+    "title": "Heaps & Priority Queues",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "heaps"
+    ],
+    "prerequisites": [
+      "int-010"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/explore/learn/card/heap/",
+    "description": "Use heaps to efficiently solve top-k and scheduling style problems."
+  },
+  {
+    "id": "int-013",
+    "title": "Tries",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "tries"
+    ],
+    "prerequisites": [
+      "int-006"
+    ],
+    "duration_hours": 4,
+    "url": "https://leetcode.com/explore/learn/card/trie/",
+    "description": "Implement prefix trees for efficient string search and autocomplete problems."
+  },
+  {
+    "id": "int-014",
+    "title": "Graphs: BFS & DFS",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "graphs"
+    ],
+    "prerequisites": [
+      "int-010"
+    ],
+    "duration_hours": 8,
+    "url": "https://leetcode.com/explore/learn/card/graph/",
+    "description": "Traverse graphs using breadth-first and depth-first search algorithms."
+  },
+  {
+    "id": "int-015",
+    "title": "Union-Find (Disjoint Set)",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "union-find"
+    ],
+    "prerequisites": [
+      "int-014"
+    ],
+    "duration_hours": 4,
+    "url": "https://leetcode.com/explore/learn/card/graph/618/disjoint-set/",
+    "description": "Solve connectivity problems efficiently using the union-find data structure."
+  },
+  {
+    "id": "int-016",
+    "title": "Dynamic Programming Fundamentals",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "dynamic-programming"
+    ],
+    "prerequisites": [
+      "int-008"
+    ],
+    "duration_hours": 8,
+    "url": "https://leetcode.com/explore/learn/card/dynamic-programming/",
+    "description": "Break problems into overlapping subproblems using memoization and tabulation."
+  },
+  {
+    "id": "int-017",
+    "title": "Dynamic Programming Patterns",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "dynamic-programming"
+    ],
+    "prerequisites": [
+      "int-016"
+    ],
+    "duration_hours": 8,
+    "url": "https://neetcode.io/roadmap",
+    "description": "Recognize and apply common DP patterns: knapsack, LIS, and interval DP."
+  },
+  {
+    "id": "int-018",
+    "title": "Backtracking",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "backtracking"
+    ],
+    "prerequisites": [
+      "int-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://leetcode.com/explore/learn/card/recursion-ii/",
+    "description": "Solve combinatorial search problems using backtracking techniques."
+  },
+  {
+    "id": "int-019",
+    "title": "Greedy Algorithms",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "greedy"
+    ],
+    "prerequisites": [
+      "int-002"
+    ],
+    "duration_hours": 5,
+    "url": "https://leetcode.com/tag/greedy/",
+    "description": "Solve optimization problems using greedy choice strategies."
+  },
+  {
+    "id": "int-020",
+    "title": "Sorting Algorithms",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "sorting"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.freecodecamp.org/news/sorting-algorithms-explained/",
+    "description": "Understand and implement common sorting algorithms and their trade-offs."
+  },
+  {
+    "id": "int-021",
+    "title": "Bit Manipulation",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "bit-manipulation"
+    ],
+    "prerequisites": [
+      "int-001"
+    ],
+    "duration_hours": 4,
+    "url": "https://leetcode.com/explore/learn/card/bit-manipulation/",
+    "description": "Solve problems efficiently using bitwise operators and tricks."
+  },
+  {
+    "id": "int-022",
+    "title": "NeetCode 150 Practice",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "practice"
+    ],
+    "prerequisites": [
+      "int-016"
+    ],
+    "duration_hours": 20,
+    "url": "https://neetcode.io/practice",
+    "description": "Curated set of 150 high-yield coding interview problems across all patterns."
+  },
+  {
+    "id": "int-023",
+    "title": "LeetCode Top Interview 150",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "practice"
+    ],
+    "prerequisites": [
+      "int-016"
+    ],
+    "duration_hours": 20,
+    "url": "https://leetcode.com/studyplan/top-interview-150/",
+    "description": "Official LeetCode study plan covering the most commonly asked interview questions."
+  },
+  {
+    "id": "int-024",
+    "title": "System Design Fundamentals",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "system-design"
+    ],
+    "prerequisites": [],
+    "duration_hours": 8,
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "description": "Core system design concepts: scalability, availability, and trade-offs."
+  },
+  {
+    "id": "int-025",
+    "title": "Scalability & Load Balancing",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "system-design"
+    ],
+    "prerequisites": [
+      "int-024"
+    ],
+    "duration_hours": 5,
+    "url": "https://github.com/donnemartin/system-design-primer#load-balancer",
+    "description": "Distribute traffic across servers using load balancing strategies."
+  },
+  {
+    "id": "int-026",
+    "title": "Database Design for System Design",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "system-design",
+      "databases"
+    ],
+    "prerequisites": [
+      "int-024"
+    ],
+    "duration_hours": 6,
+    "url": "https://github.com/donnemartin/system-design-primer#database",
+    "description": "Choose and design SQL/NoSQL schemas for scalable system design interviews."
+  },
+  {
+    "id": "int-027",
+    "title": "Caching Strategies",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "system-design",
+      "caching"
+    ],
+    "prerequisites": [
+      "int-024"
+    ],
+    "duration_hours": 5,
+    "url": "https://github.com/donnemartin/system-design-primer#cache",
+    "description": "Apply caching strategies like write-through and cache-aside in system design."
+  },
+  {
+    "id": "int-028",
+    "title": "Designing Distributed Systems",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "system-design"
+    ],
+    "prerequisites": [
+      "int-025",
+      "int-027"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers",
+    "description": "Design large-scale distributed systems such as URL shorteners and feeds."
+  },
+  {
+    "id": "int-029",
+    "title": "Mock System Design Interviews",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "system-design",
+      "practice"
+    ],
+    "prerequisites": [
+      "int-028"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.designgurus.io/course/grokking-the-system-design-interview",
+    "description": "Practice full-length system design interview scenarios with frameworks."
+  },
+  {
+    "id": "int-030",
+    "title": "Behavioral Interview Prep (STAR Method)",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "behavioral"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.themuse.com/advice/star-interview-method",
+    "description": "Structure behavioral interview answers using the STAR method."
+  },
+  {
+    "id": "int-031",
+    "title": "Resume & LinkedIn Optimization",
+    "domain": "interview_prep",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "career"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.freecodecamp.org/news/tag/resume/",
+    "description": "Optimize your resume and LinkedIn profile for technical job applications."
+  },
+  {
+    "id": "int-032",
+    "title": "Mock Coding Interviews",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "practice"
+    ],
+    "prerequisites": [
+      "int-022"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.pramp.com/",
+    "description": "Practice live coding interviews with peers in a simulated interview setting."
+  },
+  {
+    "id": "int-033",
+    "title": "Negotiating Job Offers",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "career"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.levels.fyi/blog/negotiation-guide.html",
+    "description": "Strategies for evaluating and negotiating tech job offers and compensation."
+  },
+  {
+    "id": "int-034",
+    "title": "Object-Oriented Design Interview Questions",
+    "domain": "interview_prep",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ood"
+    ],
+    "prerequisites": [
+      "int-003"
+    ],
+    "duration_hours": 5,
+    "url": "https://github.com/donnemartin/system-design-primer#object-oriented-design-interview-questions",
+    "description": "Practice designing classes and object models for OOD interview questions."
+  },
+  {
+    "id": "int-035",
+    "title": "Company-Specific Interview Prep",
+    "domain": "interview_prep",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "practice"
+    ],
+    "prerequisites": [
+      "int-023"
+    ],
+    "duration_hours": 10,
+    "url": "https://leetcode.com/company/",
+    "description": "Focus practice on problems frequently asked by specific target companies."
+  },
+  {
+    "id": "se-001",
+    "title": "Programming Fundamentals",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "fundamentals"
+    ],
+    "prerequisites": [],
+    "duration_hours": 10,
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "description": "Core programming concepts: variables, control flow, functions, and data types."
+  },
+  {
+    "id": "se-002",
+    "title": "Data Structures Fundamentals",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "data-structures"
+    ],
+    "prerequisites": [
+      "se-001"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.freecodecamp.org/news/data-structures-for-beginners/",
+    "description": "Arrays, lists, stacks, queues, and maps used throughout software engineering."
+  },
+  {
+    "id": "se-003",
+    "title": "Object-Oriented Programming Principles",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "oop"
+    ],
+    "prerequisites": [
+      "se-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://refactoring.guru/design-patterns/what-is-pattern",
+    "description": "Encapsulation, inheritance, and polymorphism as foundations of OOP design."
+  },
+  {
+    "id": "se-004",
+    "title": "SOLID Principles",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "solid",
+      "design"
+    ],
+    "prerequisites": [
+      "se-003"
+    ],
+    "duration_hours": 5,
+    "url": "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/",
+    "description": "Five principles for writing maintainable, extensible object-oriented code."
+  },
+  {
+    "id": "se-005",
+    "title": "Design Patterns: Creational",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "design-patterns"
+    ],
+    "prerequisites": [
+      "se-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://refactoring.guru/design-patterns/creational-patterns",
+    "description": "Factory, Builder, Singleton, and other object-creation design patterns."
+  },
+  {
+    "id": "se-006",
+    "title": "Design Patterns: Structural",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "design-patterns"
+    ],
+    "prerequisites": [
+      "se-005"
+    ],
+    "duration_hours": 5,
+    "url": "https://refactoring.guru/design-patterns/structural-patterns",
+    "description": "Adapter, Decorator, Facade, and other structural design patterns."
+  },
+  {
+    "id": "se-007",
+    "title": "Design Patterns: Behavioral",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "design-patterns"
+    ],
+    "prerequisites": [
+      "se-005"
+    ],
+    "duration_hours": 5,
+    "url": "https://refactoring.guru/design-patterns/behavioral-patterns",
+    "description": "Observer, Strategy, and other behavioral design patterns for flexible code."
+  },
+  {
+    "id": "se-008",
+    "title": "Clean Code Principles",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "clean-code"
+    ],
+    "prerequisites": [
+      "se-004"
+    ],
+    "duration_hours": 5,
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "description": "Naming, functions, and structure guidelines for writing readable code."
+  },
+  {
+    "id": "se-009",
+    "title": "Code Refactoring Techniques",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "refactoring"
+    ],
+    "prerequisites": [
+      "se-008"
+    ],
+    "duration_hours": 6,
+    "url": "https://refactoring.guru/refactoring/techniques",
+    "description": "Systematic techniques for improving code structure without changing behavior."
+  },
+  {
+    "id": "se-010",
+    "title": "Software Architecture Fundamentals",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "architecture"
+    ],
+    "prerequisites": [
+      "se-004"
+    ],
+    "duration_hours": 7,
+    "url": "https://martinfowler.com/architecture/",
+    "description": "Layered, hexagonal, and event-driven architecture styles for software systems."
+  },
+  {
+    "id": "se-011",
+    "title": "Domain-Driven Design",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "ddd",
+      "architecture"
+    ],
+    "prerequisites": [
+      "se-010"
+    ],
+    "duration_hours": 7,
+    "url": "https://martinfowler.com/bliki/DomainDrivenDesign.html",
+    "description": "Model complex business domains using bounded contexts and ubiquitous language."
+  },
+  {
+    "id": "se-012",
+    "title": "Microservices Architecture",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "microservices"
+    ],
+    "prerequisites": [
+      "se-010"
+    ],
+    "duration_hours": 7,
+    "url": "https://martinfowler.com/microservices/",
+    "description": "Decompose applications into independently deployable microservices."
+  },
+  {
+    "id": "se-013",
+    "title": "Test-Driven Development (TDD)",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "tdd",
+      "testing"
+    ],
+    "prerequisites": [
+      "se-003"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/news/test-driven-development-tdd-guide/",
+    "description": "Write tests before code using the red-green-refactor TDD cycle."
+  },
+  {
+    "id": "se-014",
+    "title": "Unit Testing Fundamentals",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "testing"
+    ],
+    "prerequisites": [
+      "se-001"
+    ],
+    "duration_hours": 5,
+    "url": "https://martinfowler.com/bliki/UnitTest.html",
+    "description": "Write isolated, repeatable unit tests for individual code components."
+  },
+  {
+    "id": "se-015",
+    "title": "Version Control with Git",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "git"
+    ],
+    "prerequisites": [],
+    "duration_hours": 5,
+    "url": "https://git-scm.com/book/en/v2",
+    "description": "Track changes, branch, merge, and collaborate on code using Git."
+  },
+  {
+    "id": "se-016",
+    "title": "Software Development Life Cycle (SDLC)",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "sdlc"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.freecodecamp.org/news/the-software-development-life-cycle-sdlc/",
+    "description": "Phases of planning, building, testing, and deploying software systems."
+  },
+  {
+    "id": "se-017",
+    "title": "Agile & Scrum Methodology",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "agile",
+      "scrum"
+    ],
+    "prerequisites": [
+      "se-016"
+    ],
+    "duration_hours": 4,
+    "url": "https://www.scrum.org/resources/what-is-scrum",
+    "description": "Iterative software delivery using Agile principles and the Scrum framework."
+  },
+  {
+    "id": "se-018",
+    "title": "Algorithms & Complexity Analysis",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "algorithms"
+    ],
+    "prerequisites": [
+      "se-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/",
+    "description": "Analyze algorithm efficiency using asymptotic time and space complexity."
+  },
+  {
+    "id": "se-019",
+    "title": "Database Fundamentals (SQL)",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "sql",
+      "databases"
+    ],
+    "prerequisites": [
+      "se-002"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.freecodecamp.org/learn/relational-database/",
+    "description": "Design schemas and query relational databases using SQL."
+  },
+  {
+    "id": "se-020",
+    "title": "API Design (REST)",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "api",
+      "rest"
+    ],
+    "prerequisites": [
+      "se-002"
+    ],
+    "duration_hours": 5,
+    "url": "https://restfulapi.net/",
+    "description": "Principles for designing consistent, resource-oriented RESTful APIs."
+  },
+  {
+    "id": "se-021",
+    "title": "GraphQL Fundamentals",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "graphql",
+      "api"
+    ],
+    "prerequisites": [
+      "se-020"
+    ],
+    "duration_hours": 5,
+    "url": "https://graphql.org/learn/",
+    "description": "Query and mutate data with GraphQL as an alternative to REST APIs."
+  },
+  {
+    "id": "se-022",
+    "title": "Concurrency & Multithreading",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "concurrency"
+    ],
+    "prerequisites": [
+      "se-002"
+    ],
+    "duration_hours": 7,
+    "url": "https://www.baeldung.com/java-concurrency",
+    "description": "Manage threads, locks, and shared state in concurrent programs."
+  },
+  {
+    "id": "se-023",
+    "title": "Functional Programming Concepts",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "functional-programming"
+    ],
+    "prerequisites": [
+      "se-001"
+    ],
+    "duration_hours": 6,
+    "url": "https://www.freecodecamp.org/news/functional-programming-principles-in-javascript/",
+    "description": "Pure functions, immutability, and higher-order functions in software design."
+  },
+  {
+    "id": "se-024",
+    "title": "Software Testing Strategies",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "testing"
+    ],
+    "prerequisites": [
+      "se-014"
+    ],
+    "duration_hours": 6,
+    "url": "https://martinfowler.com/testing/",
+    "description": "Unit, integration, and end-to-end testing strategies and the test pyramid."
+  },
+  {
+    "id": "se-025",
+    "title": "Code Review Best Practices",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "code-review"
+    ],
+    "prerequisites": [
+      "se-008"
+    ],
+    "duration_hours": 3,
+    "url": "https://google.github.io/eng-practices/review/",
+    "description": "Give and receive effective, constructive code reviews."
+  },
+  {
+    "id": "se-026",
+    "title": "Continuous Integration Fundamentals",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "ci"
+    ],
+    "prerequisites": [
+      "se-015"
+    ],
+    "duration_hours": 5,
+    "url": "https://martinfowler.com/articles/continuousIntegration.html",
+    "description": "Automate building and testing code changes using continuous integration."
+  },
+  {
+    "id": "se-027",
+    "title": "Software Documentation Best Practices",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "documentation"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.writethedocs.org/guide/",
+    "description": "Write clear technical documentation for code, APIs, and systems."
+  },
+  {
+    "id": "se-028",
+    "title": "Distributed Systems Fundamentals",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "distributed-systems"
+    ],
+    "prerequisites": [
+      "se-011"
+    ],
+    "duration_hours": 8,
+    "url": "https://github.com/aphyr/distsys-class",
+    "description": "Consistency, replication, and failure handling in distributed systems."
+  },
+  {
+    "id": "se-029",
+    "title": "Event-Driven Architecture",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "event-driven"
+    ],
+    "prerequisites": [
+      "se-012"
+    ],
+    "duration_hours": 6,
+    "url": "https://martinfowler.com/articles/201701-event-driven.html",
+    "description": "Design loosely coupled systems using events and message brokers."
+  },
+  {
+    "id": "se-030",
+    "title": "Design for Scalability",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "scalability"
+    ],
+    "prerequisites": [
+      "se-012"
+    ],
+    "duration_hours": 7,
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "description": "Design software systems that scale to handle growing load and data."
+  },
+  {
+    "id": "se-031",
+    "title": "Software Security Fundamentals",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "security"
+    ],
+    "prerequisites": [
+      "se-002"
+    ],
+    "duration_hours": 6,
+    "url": "https://owasp.org/www-project-top-ten/",
+    "description": "Identify and mitigate the most common software security vulnerabilities."
+  },
+  {
+    "id": "se-032",
+    "title": "Legacy Code Management",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "legacy-code"
+    ],
+    "prerequisites": [
+      "se-009"
+    ],
+    "duration_hours": 6,
+    "url": "https://understandlegacycode.com/",
+    "description": "Strategies for safely understanding, testing, and refactoring legacy codebases."
+  },
+  {
+    "id": "se-033",
+    "title": "Software Engineering Ethics & Best Practices",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "ethics"
+    ],
+    "prerequisites": [],
+    "duration_hours": 3,
+    "url": "https://www.acm.org/code-of-ethics",
+    "description": "Professional and ethical responsibilities of software engineers."
+  },
+  {
+    "id": "se-034",
+    "title": "Technical Writing for Engineers",
+    "domain": "software_engineering",
+    "level": "beginner",
+    "type": "course",
+    "tags": [
+      "technical-writing"
+    ],
+    "prerequisites": [],
+    "duration_hours": 4,
+    "url": "https://developers.google.com/tech-writing",
+    "description": "Write clear technical documents, design docs, and API references."
+  },
+  {
+    "id": "se-035",
+    "title": "Building a Portfolio Project",
+    "domain": "software_engineering",
+    "level": "intermediate",
+    "type": "course",
+    "tags": [
+      "portfolio",
+      "career"
+    ],
+    "prerequisites": [
+      "se-020"
+    ],
+    "duration_hours": 8,
+    "url": "https://www.freecodecamp.org/news/how-to-build-a-portfolio-website/",
+    "description": "Plan and build a polished portfolio project to showcase engineering skills."
+  },
+  {
+    "id": "se-036",
+    "title": "Capstone: Design and Build a Full-Stack Application",
+    "domain": "software_engineering",
+    "level": "advanced",
+    "type": "course",
+    "tags": [
+      "capstone"
+    ],
+    "prerequisites": [
+      "se-019",
+      "se-020",
+      "se-024"
+    ],
+    "duration_hours": 14,
+    "url": "https://www.freecodecamp.org/learn/full-stack/",
+    "description": "Design, build, test, and deploy a complete full-stack software application."
+  }
+]
