@@ -1,0 +1,51 @@
+{
+  "roadmap": {
+    "id": "mock-roadmap-2",
+    "learner_profile_id": "mock-profile-1",
+    "version": 2,
+    "generated_at": "2026-08-24T09:00:00Z",
+    "items": [
+      {
+        "id": "mock-item-1",
+        "resource_id": "ml-002",
+        "order": 1,
+        "status": "completed",
+        "milestone": false,
+        "reason": "You already know some Python, so this fills the NumPy gaps you'll need for every later step.",
+        "resource": {
+          "id": "ml-002",
+          "title": "Python for AI/ML",
+          "domain": "ai_ml",
+          "level": "beginner",
+          "type": "course",
+          "tags": ["python", "numpy", "foundations"],
+          "prerequisites": [],
+          "duration_hours": 8,
+          "url": "https://example.com/courses/python-for-ai-ml",
+          "description": "NumPy and core Python patterns used throughout machine learning and deep learning code."
+        }
+      },
+      {
+        "id": "mock-item-4",
+        "resource_id": "ml-005",
+        "order": 2,
+        "status": "current",
+        "milestone": false,
+        "reason": "Since you skipped the deep linear-algebra course, this article-length intro keeps momentum without the heavier math detour.",
+        "resource": {
+          "id": "ml-005",
+          "title": "Intro to Large Language Models",
+          "domain": "ai_ml",
+          "level": "intermediate",
+          "type": "article",
+          "tags": ["llm", "nlp", "transformers"],
+          "prerequisites": ["ml-003"],
+          "duration_hours": 4,
+          "url": "https://example.com/articles/intro-to-llms",
+          "description": "How transformer-based language models work, at a level useful for building applications."
+        }
+      }
+    ]
+  },
+  "changes_summary": "Since you skipped Linear Algebra for Machine Learning, we replaced the deep-math detour with a lighter LLM-focused article so your path stays achievable within your weekly hours."
+}

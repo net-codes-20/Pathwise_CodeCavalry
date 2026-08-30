@@ -1,0 +1,68 @@
+{
+  "id": "mock-roadmap-1",
+  "learner_profile_id": "mock-profile-1",
+  "version": 1,
+  "generated_at": "2026-08-23T09:00:00Z",
+  "items": [
+    {
+      "id": "mock-item-1",
+      "resource_id": "ml-002",
+      "order": 1,
+      "status": "current",
+      "milestone": false,
+      "reason": "You already know some Python, so this fills the NumPy gaps you'll need for every later step.",
+      "resource": {
+        "id": "ml-002",
+        "title": "Python for AI/ML",
+        "domain": "ai_ml",
+        "level": "beginner",
+        "type": "course",
+        "tags": ["python", "numpy", "foundations"],
+        "prerequisites": [],
+        "duration_hours": 8,
+        "url": "https://example.com/courses/python-for-ai-ml",
+        "description": "NumPy and core Python patterns used throughout machine learning and deep learning code."
+      }
+    },
+    {
+      "id": "mock-item-2",
+      "resource_id": "ml-001",
+      "order": 2,
+      "status": "upcoming",
+      "milestone": false,
+      "reason": "Linear algebra underlies the neural network math coming up next in your path.",
+      "resource": {
+        "id": "ml-001",
+        "title": "Linear Algebra for Machine Learning",
+        "domain": "ai_ml",
+        "level": "beginner",
+        "type": "course",
+        "tags": ["math", "linear_algebra", "foundations"],
+        "prerequisites": [],
+        "duration_hours": 8,
+        "url": "https://example.com/courses/linear-algebra-ml",
+        "description": "Vectors, matrices, and transformations, framed for their use in ML algorithms."
+      }
+    },
+    {
+      "id": "mock-item-3",
+      "resource_id": "ml-003",
+      "order": 3,
+      "status": "upcoming",
+      "milestone": true,
+      "reason": "This is your first real milestone: implementing a network from scratch cements the last two courses.",
+      "resource": {
+        "id": "ml-003",
+        "title": "Neural Networks from Scratch",
+        "domain": "ai_ml",
+        "level": "intermediate",
+        "type": "course",
+        "tags": ["neural_networks", "deep_learning"],
+        "prerequisites": ["ml-001", "ml-002"],
+        "duration_hours": 14,
+        "url": "https://example.com/courses/neural-networks-from-scratch",
+        "description": "Implementing forward and backward propagation manually before using a framework."
+      }
+    }
+  ]
+}

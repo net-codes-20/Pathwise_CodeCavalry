@@ -1,0 +1,14 @@
+{
+  "profile": {
+    "goal": "Become an AI engineer within 6 months",
+    "goal_type": "career_transition",
+    "experience_level": "beginner",
+    "current_skills": ["python"],
+    "interests": ["machine learning", "llm"],
+    "timeline_months": 6,
+    "weekly_time_hours": 10,
+    "constraints": []
+  },
+  "missing_fields": [],
+  "follow_up_question": null
+}

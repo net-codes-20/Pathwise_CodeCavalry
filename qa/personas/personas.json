@@ -1,0 +1,44 @@
+[
+  {
+    "id": "alex",
+    "name": "Alex",
+    "raw_text": "I want to become an AI engineer in 6 months. I'm already comfortable with Python (80%) and web development (70%), and I know a bit of ML (20%).",
+    "notes": "Demo persona #1 for the required demo video (Section 6). Stronger starting skills than Priya — should get a visibly more advanced/faster-paced roadmap."
+  },
+  {
+    "id": "priya",
+    "name": "Priya",
+    "raw_text": "I want to become an AI engineer in 6 months. I only know about 20% Python, no web development experience, and maybe 5% ML.",
+    "notes": "Demo persona #2. Same goal and timeline as Alex, near-zero starting skills — should get a visibly different, more foundational roadmap. The two roadmaps diverging is the core proof point for the demo script."
+  },
+  {
+    "id": "vague_goal",
+    "name": "Edge case: vague goal",
+    "raw_text": "I want to get better with data.",
+    "notes": "Should trigger missing_fields + a follow_up_question, not a confident guess."
+  },
+  {
+    "id": "changed_goal_midway",
+    "name": "Edge case: changes goal after starting",
+    "raw_text": "Actually I've changed my mind, I want to focus on web development instead of data science now.",
+    "notes": "Run this as a second onboarding pass on an existing learner_id — tests that profile updates (PUT /api/profile/{id}) actually reshape the next roadmap generation."
+  },
+  {
+    "id": "expert_tight_timeline",
+    "name": "Edge case: advanced learner, 1 month",
+    "raw_text": "I'm an advanced data scientist, I just need to close gaps in deep learning and deployment before an interview in 4 weeks.",
+    "notes": "Tests that beginner-level filler content doesn't leak into an advanced, time-constrained roadmap."
+  },
+  {
+    "id": "no_candidates",
+    "name": "Edge case: forced empty candidate set",
+    "raw_text": "I want to learn underwater basket weaving for a certification in 2 months.",
+    "notes": "Outside all 3 in-scope domains — should trigger the 'No candidates found' empty state (Section 8), not a hallucinated roadmap."
+  },
+  {
+    "id": "forced_ai_failure",
+    "name": "Edge case: forced AI/API failure",
+    "raw_text": "(use with GEMINI_API_KEY temporarily unset and no fallback keys configured)",
+    "notes": "Confirms POST /api/roadmap/generate returns 422 roadmap_generation_failed and the frontend shows the retry state, not a raw stack trace."
+  }
+]
