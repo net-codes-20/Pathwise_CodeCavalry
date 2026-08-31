@@ -4,7 +4,8 @@
 
 ---
 
-Demo Video Link: https://youtu.be/ciNSB9K078Y 
+- **Demo Video Link:** [https://youtu.be/ciNSB9K078Y](https://youtu.be/ciNSB9K078Y)
+- **Project Presentation Deck (PDF):** [Pathwise Presentation.pdf](docs/Pathwise%20Presentation.pdf) 
 
 ## 🌟 Key Features
 
